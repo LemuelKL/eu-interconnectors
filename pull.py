@@ -11,6 +11,9 @@ import datetime as dt
 load_dotenv()
 
 securityToken = os.getenv("ENTSOE_TOKEN")
+if securityToken is None:
+    print("No security token found. Please set the environment variable `ENTSOE_TOKEN`")
+    exit(1)
 basePath = "https://web-api.tp.entsoe.eu/api?securityToken=" + securityToken
 
 optionDict = {
