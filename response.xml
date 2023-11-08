@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Publication_MarketDocument xmlns="urn:iec62325.351:tc57wg16:451-3:publicationdocument:7:0">
-	<mRID>de4508448c194a3f9002a01b04b01381</mRID>
+	<mRID>98f5449d3ddb41acbe5a70a0f884c48f</mRID>
 	<revisionNumber>1</revisionNumber>
 	<type>A11</type>
 	<sender_MarketParticipant.mRID codingScheme="A01">10X1001A1001A450</sender_MarketParticipant.mRID>
 	<sender_MarketParticipant.marketRole.type>A32</sender_MarketParticipant.marketRole.type>
 	<receiver_MarketParticipant.mRID codingScheme="A01">10X1001A1001A450</receiver_MarketParticipant.mRID>
 	<receiver_MarketParticipant.marketRole.type>A33</receiver_MarketParticipant.marketRole.type>
-	<createdDateTime>2023-09-27T14:18:50Z</createdDateTime>
+	<createdDateTime>2023-11-08T16:39:05Z</createdDateTime>
 	<period.timeInterval>
-		<start>2019-10-31T23:00Z</start>
-		<end>2019-11-30T23:00Z</end>
+		<start>2018-10-31T00:00Z</start>
+		<end>2018-11-07T00:00Z</end>
 	</period.timeInterval>
 	<TimeSeries>
 		<mRID>1</mRID>
@@ -21,968 +21,329 @@
 		<curveType>A01</curveType>
 			<Period>
 				<timeInterval>
-					<start>2019-10-31T23:00Z</start>
-					<end>2019-11-07T11:00Z</end>
+					<start>2018-10-31T00:00Z</start>
+					<end>2018-11-07T00:00Z</end>
 				</timeInterval>
 				<resolution>PT60M</resolution>
 					<Point>
 						<position>1</position>
-						<quantity>1629</quantity>
+						<quantity>655</quantity>
 					</Point>
 					<Point>
 						<position>2</position>
-						<quantity>1779</quantity>
+						<quantity>1409</quantity>
 					</Point>
 					<Point>
 						<position>3</position>
-						<quantity>1759</quantity>
+						<quantity>1680</quantity>
 					</Point>
 					<Point>
 						<position>4</position>
-						<quantity>1778</quantity>
+						<quantity>1110</quantity>
 					</Point>
 					<Point>
 						<position>5</position>
-						<quantity>1666</quantity>
+						<quantity>87</quantity>
 					</Point>
 					<Point>
 						<position>6</position>
-						<quantity>1214</quantity>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
 						<position>7</position>
-						<quantity>1357</quantity>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
 						<position>8</position>
-						<quantity>2028</quantity>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
 						<position>9</position>
-						<quantity>2028</quantity>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
 						<position>10</position>
-						<quantity>2028</quantity>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
 						<position>11</position>
-						<quantity>2029</quantity>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
 						<position>12</position>
-						<quantity>2028</quantity>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
 						<position>13</position>
-						<quantity>2028</quantity>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
 						<position>14</position>
-						<quantity>2028</quantity>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
 						<position>15</position>
-						<quantity>2028</quantity>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
 						<position>16</position>
-						<quantity>2029</quantity>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
 						<position>17</position>
-						<quantity>2029</quantity>
+						<quantity>1229</quantity>
 					</Point>
 					<Point>
 						<position>18</position>
-						<quantity>2029</quantity>
+						<quantity>2017</quantity>
 					</Point>
 					<Point>
 						<position>19</position>
-						<quantity>2029</quantity>
+						<quantity>2017</quantity>
 					</Point>
 					<Point>
 						<position>20</position>
-						<quantity>2029</quantity>
+						<quantity>2016</quantity>
 					</Point>
 					<Point>
 						<position>21</position>
-						<quantity>2030</quantity>
+						<quantity>1978</quantity>
 					</Point>
 					<Point>
 						<position>22</position>
-						<quantity>2031</quantity>
+						<quantity>2017</quantity>
 					</Point>
 					<Point>
 						<position>23</position>
-						<quantity>2029</quantity>
+						<quantity>1406</quantity>
 					</Point>
 					<Point>
 						<position>24</position>
-						<quantity>1731</quantity>
+						<quantity>2017</quantity>
 					</Point>
 					<Point>
 						<position>25</position>
-						<quantity>1422</quantity>
+						<quantity>2017</quantity>
 					</Point>
 					<Point>
 						<position>26</position>
-						<quantity>1420</quantity>
+						<quantity>2018</quantity>
 					</Point>
 					<Point>
 						<position>27</position>
-						<quantity>1420</quantity>
+						<quantity>2017</quantity>
 					</Point>
 					<Point>
 						<position>28</position>
-						<quantity>1420</quantity>
+						<quantity>2016</quantity>
 					</Point>
 					<Point>
 						<position>29</position>
-						<quantity>1420</quantity>
+						<quantity>2016</quantity>
 					</Point>
 					<Point>
 						<position>30</position>
-						<quantity>1420</quantity>
+						<quantity>2016</quantity>
 					</Point>
 					<Point>
 						<position>31</position>
-						<quantity>1420</quantity>
+						<quantity>2016</quantity>
 					</Point>
 					<Point>
 						<position>32</position>
-						<quantity>1522</quantity>
+						<quantity>2017</quantity>
 					</Point>
 					<Point>
 						<position>33</position>
-						<quantity>1923</quantity>
+						<quantity>2016</quantity>
 					</Point>
 					<Point>
 						<position>34</position>
-						<quantity>2029</quantity>
+						<quantity>2016</quantity>
 					</Point>
 					<Point>
 						<position>35</position>
-						<quantity>2029</quantity>
+						<quantity>2016</quantity>
 					</Point>
 					<Point>
 						<position>36</position>
-						<quantity>2029</quantity>
+						<quantity>2017</quantity>
 					</Point>
 					<Point>
 						<position>37</position>
-						<quantity>2028</quantity>
+						<quantity>2016</quantity>
 					</Point>
 					<Point>
 						<position>38</position>
-						<quantity>2029</quantity>
+						<quantity>2017</quantity>
 					</Point>
 					<Point>
 						<position>39</position>
-						<quantity>1944</quantity>
+						<quantity>2017</quantity>
 					</Point>
 					<Point>
 						<position>40</position>
-						<quantity>1685</quantity>
+						<quantity>2017</quantity>
 					</Point>
 					<Point>
 						<position>41</position>
-						<quantity>1686</quantity>
+						<quantity>2017</quantity>
 					</Point>
 					<Point>
 						<position>42</position>
-						<quantity>1988</quantity>
+						<quantity>2016</quantity>
 					</Point>
 					<Point>
 						<position>43</position>
-						<quantity>1688</quantity>
+						<quantity>2016</quantity>
 					</Point>
 					<Point>
 						<position>44</position>
-						<quantity>1988</quantity>
+						<quantity>2017</quantity>
 					</Point>
 					<Point>
 						<position>45</position>
-						<quantity>1984</quantity>
+						<quantity>2017</quantity>
 					</Point>
 					<Point>
 						<position>46</position>
-						<quantity>1676</quantity>
+						<quantity>2016</quantity>
 					</Point>
 					<Point>
 						<position>47</position>
-						<quantity>1922</quantity>
+						<quantity>2017</quantity>
 					</Point>
 					<Point>
 						<position>48</position>
-						<quantity>1979</quantity>
+						<quantity>1964</quantity>
 					</Point>
 					<Point>
 						<position>49</position>
-						<quantity>1524</quantity>
+						<quantity>1914</quantity>
 					</Point>
 					<Point>
 						<position>50</position>
-						<quantity>1526</quantity>
+						<quantity>1913</quantity>
 					</Point>
 					<Point>
 						<position>51</position>
-						<quantity>1379</quantity>
+						<quantity>1913</quantity>
 					</Point>
 					<Point>
 						<position>52</position>
-						<quantity>1380</quantity>
+						<quantity>1914</quantity>
 					</Point>
 					<Point>
 						<position>53</position>
-						<quantity>1379</quantity>
+						<quantity>1913</quantity>
 					</Point>
 					<Point>
 						<position>54</position>
-						<quantity>1379</quantity>
+						<quantity>1840</quantity>
 					</Point>
 					<Point>
 						<position>55</position>
-						<quantity>1379</quantity>
-					</Point>
-					<Point>
-						<position>56</position>
-						<quantity>1232</quantity>
-					</Point>
-					<Point>
-						<position>57</position>
-						<quantity>1619</quantity>
-					</Point>
-					<Point>
-						<position>58</position>
-						<quantity>1719</quantity>
-					</Point>
-					<Point>
-						<position>59</position>
-						<quantity>1874</quantity>
-					</Point>
-					<Point>
-						<position>60</position>
-						<quantity>2028</quantity>
-					</Point>
-					<Point>
-						<position>61</position>
-						<quantity>2028</quantity>
-					</Point>
-					<Point>
-						<position>62</position>
-						<quantity>2029</quantity>
-					</Point>
-					<Point>
-						<position>63</position>
-						<quantity>2029</quantity>
-					</Point>
-					<Point>
-						<position>64</position>
-						<quantity>2030</quantity>
-					</Point>
-					<Point>
-						<position>65</position>
-						<quantity>2029</quantity>
-					</Point>
-					<Point>
-						<position>66</position>
-						<quantity>2028</quantity>
-					</Point>
-					<Point>
-						<position>67</position>
-						<quantity>2029</quantity>
-					</Point>
-					<Point>
-						<position>68</position>
-						<quantity>2029</quantity>
-					</Point>
-					<Point>
-						<position>69</position>
-						<quantity>2028</quantity>
-					</Point>
-					<Point>
-						<position>70</position>
-						<quantity>2028</quantity>
-					</Point>
-					<Point>
-						<position>71</position>
-						<quantity>2028</quantity>
-					</Point>
-					<Point>
-						<position>72</position>
-						<quantity>1827</quantity>
-					</Point>
-					<Point>
-						<position>73</position>
-						<quantity>1721</quantity>
-					</Point>
-					<Point>
-						<position>74</position>
-						<quantity>1721</quantity>
-					</Point>
-					<Point>
-						<position>75</position>
-						<quantity>1720</quantity>
-					</Point>
-					<Point>
-						<position>76</position>
-						<quantity>1720</quantity>
-					</Point>
-					<Point>
-						<position>77</position>
-						<quantity>1720</quantity>
-					</Point>
-					<Point>
-						<position>78</position>
-						<quantity>1776</quantity>
-					</Point>
-					<Point>
-						<position>79</position>
-						<quantity>1923</quantity>
-					</Point>
-					<Point>
-						<position>80</position>
-						<quantity>2027</quantity>
-					</Point>
-					<Point>
-						<position>81</position>
-						<quantity>2027</quantity>
-					</Point>
-					<Point>
-						<position>82</position>
-						<quantity>2027</quantity>
-					</Point>
-					<Point>
-						<position>83</position>
-						<quantity>2026</quantity>
-					</Point>
-					<Point>
-						<position>84</position>
-						<quantity>2001</quantity>
-					</Point>
-					<Point>
-						<position>85</position>
-						<quantity>2001</quantity>
-					</Point>
-					<Point>
-						<position>86</position>
-						<quantity>2003</quantity>
-					</Point>
-					<Point>
-						<position>87</position>
-						<quantity>1655</quantity>
-					</Point>
-					<Point>
-						<position>88</position>
-						<quantity>1261</quantity>
-					</Point>
-					<Point>
-						<position>89</position>
-						<quantity>1653</quantity>
-					</Point>
-					<Point>
-						<position>90</position>
-						<quantity>2025</quantity>
-					</Point>
-					<Point>
-						<position>91</position>
-						<quantity>2026</quantity>
-					</Point>
-					<Point>
-						<position>92</position>
-						<quantity>2026</quantity>
-					</Point>
-					<Point>
-						<position>93</position>
-						<quantity>2025</quantity>
-					</Point>
-					<Point>
-						<position>94</position>
-						<quantity>2026</quantity>
-					</Point>
-					<Point>
-						<position>95</position>
-						<quantity>2026</quantity>
-					</Point>
-					<Point>
-						<position>96</position>
-						<quantity>2026</quantity>
-					</Point>
-					<Point>
-						<position>97</position>
-						<quantity>1777</quantity>
-					</Point>
-					<Point>
-						<position>98</position>
-						<quantity>1720</quantity>
-					</Point>
-					<Point>
-						<position>99</position>
-						<quantity>1720</quantity>
-					</Point>
-					<Point>
-						<position>100</position>
-						<quantity>1720</quantity>
-					</Point>
-					<Point>
-						<position>101</position>
-						<quantity>1720</quantity>
-					</Point>
-					<Point>
-						<position>102</position>
-						<quantity>1720</quantity>
-					</Point>
-					<Point>
-						<position>103</position>
-						<quantity>1698</quantity>
-					</Point>
-					<Point>
-						<position>104</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>105</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>106</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>107</position>
-						<quantity>100</quantity>
-					</Point>
-					<Point>
-						<position>108</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>109</position>
-						<quantity>153</quantity>
-					</Point>
-					<Point>
-						<position>110</position>
-						<quantity>52</quantity>
-					</Point>
-					<Point>
-						<position>111</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>112</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>113</position>
-						<quantity>592</quantity>
-					</Point>
-					<Point>
-						<position>114</position>
-						<quantity>1711</quantity>
-					</Point>
-					<Point>
-						<position>115</position>
-						<quantity>2026</quantity>
-					</Point>
-					<Point>
-						<position>116</position>
-						<quantity>2026</quantity>
-					</Point>
-					<Point>
-						<position>117</position>
-						<quantity>2026</quantity>
-					</Point>
-					<Point>
-						<position>118</position>
-						<quantity>2026</quantity>
-					</Point>
-					<Point>
-						<position>119</position>
-						<quantity>2026</quantity>
-					</Point>
-					<Point>
-						<position>120</position>
-						<quantity>2026</quantity>
-					</Point>
-					<Point>
-						<position>121</position>
-						<quantity>2026</quantity>
-					</Point>
-					<Point>
-						<position>122</position>
-						<quantity>2026</quantity>
-					</Point>
-					<Point>
-						<position>123</position>
-						<quantity>2026</quantity>
-					</Point>
-					<Point>
-						<position>124</position>
-						<quantity>2025</quantity>
-					</Point>
-					<Point>
-						<position>125</position>
-						<quantity>2026</quantity>
-					</Point>
-					<Point>
-						<position>126</position>
-						<quantity>2026</quantity>
-					</Point>
-					<Point>
-						<position>127</position>
-						<quantity>1901</quantity>
-					</Point>
-					<Point>
-						<position>128</position>
-						<quantity>1316</quantity>
-					</Point>
-					<Point>
-						<position>129</position>
-						<quantity>1871</quantity>
-					</Point>
-					<Point>
-						<position>130</position>
-						<quantity>1940</quantity>
-					</Point>
-					<Point>
-						<position>131</position>
-						<quantity>1865</quantity>
-					</Point>
-					<Point>
-						<position>132</position>
-						<quantity>1939</quantity>
-					</Point>
-					<Point>
-						<position>133</position>
-						<quantity>2021</quantity>
-					</Point>
-					<Point>
-						<position>134</position>
-						<quantity>2025</quantity>
-					</Point>
-					<Point>
-						<position>135</position>
-						<quantity>1717</quantity>
-					</Point>
-					<Point>
-						<position>136</position>
 						<quantity>1651</quantity>
 					</Point>
 					<Point>
-						<position>137</position>
-						<quantity>2026</quantity>
-					</Point>
-					<Point>
-						<position>138</position>
-						<quantity>2026</quantity>
-					</Point>
-					<Point>
-						<position>139</position>
-						<quantity>2025</quantity>
-					</Point>
-					<Point>
-						<position>140</position>
-						<quantity>2025</quantity>
-					</Point>
-					<Point>
-						<position>141</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>142</position>
-						<quantity>2025</quantity>
-					</Point>
-					<Point>
-						<position>143</position>
-						<quantity>2025</quantity>
-					</Point>
-					<Point>
-						<position>144</position>
-						<quantity>2025</quantity>
-					</Point>
-					<Point>
-						<position>145</position>
-						<quantity>1864</quantity>
-					</Point>
-					<Point>
-						<position>146</position>
-						<quantity>1784</quantity>
-					</Point>
-					<Point>
-						<position>147</position>
-						<quantity>1784</quantity>
-					</Point>
-					<Point>
-						<position>148</position>
-						<quantity>1784</quantity>
-					</Point>
-					<Point>
-						<position>149</position>
-						<quantity>1783</quantity>
-					</Point>
-					<Point>
-						<position>150</position>
-						<quantity>1765</quantity>
-					</Point>
-					<Point>
-						<position>151</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>152</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>153</position>
-						<quantity>1427</quantity>
-					</Point>
-					<Point>
-						<position>154</position>
-						<quantity>1922</quantity>
-					</Point>
-					<Point>
-						<position>155</position>
-						<quantity>2025</quantity>
-					</Point>
-					<Point>
-						<position>156</position>
-						<quantity>1842</quantity>
-					</Point>
-			</Period>
-	</TimeSeries>
-	<TimeSeries>
-		<mRID>2</mRID>
-		<businessType>A66</businessType>
-		<in_Domain.mRID codingScheme="A01">10YGB----------A</in_Domain.mRID>
-		<out_Domain.mRID codingScheme="A01">10YFR-RTE------C</out_Domain.mRID>
-		<quantity_Measure_Unit.name>MAW</quantity_Measure_Unit.name>
-		<curveType>A01</curveType>
-			<Period>
-				<timeInterval>
-					<start>2019-11-07T19:00Z</start>
-					<end>2019-11-30T23:00Z</end>
-				</timeInterval>
-				<resolution>PT60M</resolution>
-					<Point>
-						<position>1</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>2</position>
-						<quantity>2025</quantity>
-					</Point>
-					<Point>
-						<position>3</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>4</position>
-						<quantity>2025</quantity>
-					</Point>
-					<Point>
-						<position>5</position>
-						<quantity>1961</quantity>
-					</Point>
-					<Point>
-						<position>6</position>
-						<quantity>1620</quantity>
-					</Point>
-					<Point>
-						<position>7</position>
-						<quantity>1820</quantity>
-					</Point>
-					<Point>
-						<position>8</position>
-						<quantity>1534</quantity>
-					</Point>
-					<Point>
-						<position>9</position>
-						<quantity>1534</quantity>
-					</Point>
-					<Point>
-						<position>10</position>
-						<quantity>1620</quantity>
-					</Point>
-					<Point>
-						<position>11</position>
-						<quantity>1656</quantity>
-					</Point>
-					<Point>
-						<position>12</position>
-						<quantity>18</quantity>
-					</Point>
-					<Point>
-						<position>13</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>14</position>
-						<quantity>1</quantity>
-					</Point>
-					<Point>
-						<position>15</position>
-						<quantity>617</quantity>
-					</Point>
-					<Point>
-						<position>16</position>
-						<quantity>863</quantity>
-					</Point>
-					<Point>
-						<position>17</position>
-						<quantity>1420</quantity>
-					</Point>
-					<Point>
-						<position>18</position>
-						<quantity>1248</quantity>
-					</Point>
-					<Point>
-						<position>19</position>
-						<quantity>1126</quantity>
-					</Point>
-					<Point>
-						<position>20</position>
-						<quantity>1379</quantity>
-					</Point>
-					<Point>
-						<position>21</position>
-						<quantity>1842</quantity>
-					</Point>
-					<Point>
-						<position>22</position>
-						<quantity>1580</quantity>
-					</Point>
-					<Point>
-						<position>23</position>
-						<quantity>1829</quantity>
-					</Point>
-					<Point>
-						<position>24</position>
-						<quantity>1759</quantity>
-					</Point>
-					<Point>
-						<position>25</position>
-						<quantity>1826</quantity>
-					</Point>
-					<Point>
-						<position>26</position>
-						<quantity>1824</quantity>
-					</Point>
-					<Point>
-						<position>27</position>
-						<quantity>1826</quantity>
-					</Point>
-					<Point>
-						<position>28</position>
-						<quantity>1108</quantity>
-					</Point>
-					<Point>
-						<position>29</position>
-						<quantity>2021</quantity>
-					</Point>
-					<Point>
-						<position>30</position>
-						<quantity>1823</quantity>
-					</Point>
-					<Point>
-						<position>31</position>
-						<quantity>1768</quantity>
-					</Point>
-					<Point>
-						<position>32</position>
-						<quantity>1719</quantity>
-					</Point>
-					<Point>
-						<position>33</position>
-						<quantity>1718</quantity>
-					</Point>
-					<Point>
-						<position>34</position>
-						<quantity>1622</quantity>
-					</Point>
-					<Point>
-						<position>35</position>
-						<quantity>1569</quantity>
-					</Point>
-					<Point>
-						<position>36</position>
-						<quantity>1669</quantity>
-					</Point>
-					<Point>
-						<position>37</position>
-						<quantity>1558</quantity>
-					</Point>
-					<Point>
-						<position>38</position>
-						<quantity>1818</quantity>
-					</Point>
-					<Point>
-						<position>39</position>
-						<quantity>2021</quantity>
-					</Point>
-					<Point>
-						<position>40</position>
-						<quantity>1905</quantity>
-					</Point>
-					<Point>
-						<position>41</position>
-						<quantity>1874</quantity>
-					</Point>
-					<Point>
-						<position>42</position>
-						<quantity>1874</quantity>
-					</Point>
-					<Point>
-						<position>43</position>
-						<quantity>2022</quantity>
-					</Point>
-					<Point>
-						<position>44</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>45</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>46</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>47</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>48</position>
-						<quantity>2022</quantity>
-					</Point>
-					<Point>
-						<position>49</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>50</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>51</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>52</position>
-						<quantity>2022</quantity>
-					</Point>
-					<Point>
-						<position>53</position>
-						<quantity>2022</quantity>
-					</Point>
-					<Point>
-						<position>54</position>
-						<quantity>1923</quantity>
-					</Point>
-					<Point>
-						<position>55</position>
-						<quantity>1880</quantity>
-					</Point>
-					<Point>
 						<position>56</position>
-						<quantity>1825</quantity>
+						<quantity>1180</quantity>
 					</Point>
 					<Point>
 						<position>57</position>
-						<quantity>1824</quantity>
+						<quantity>1842</quantity>
 					</Point>
 					<Point>
 						<position>58</position>
-						<quantity>1824</quantity>
+						<quantity>1663</quantity>
 					</Point>
 					<Point>
 						<position>59</position>
-						<quantity>1824</quantity>
+						<quantity>596</quantity>
 					</Point>
 					<Point>
 						<position>60</position>
-						<quantity>1922</quantity>
+						<quantity>35</quantity>
 					</Point>
 					<Point>
 						<position>61</position>
-						<quantity>1711</quantity>
+						<quantity>318</quantity>
 					</Point>
 					<Point>
 						<position>62</position>
-						<quantity>2021</quantity>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
 						<position>63</position>
-						<quantity>2021</quantity>
+						<quantity>506</quantity>
 					</Point>
 					<Point>
 						<position>64</position>
-						<quantity>2020</quantity>
+						<quantity>823</quantity>
 					</Point>
 					<Point>
 						<position>65</position>
-						<quantity>2020</quantity>
+						<quantity>2002</quantity>
 					</Point>
 					<Point>
 						<position>66</position>
-						<quantity>2022</quantity>
+						<quantity>2016</quantity>
 					</Point>
 					<Point>
 						<position>67</position>
-						<quantity>2022</quantity>
+						<quantity>1386</quantity>
 					</Point>
 					<Point>
 						<position>68</position>
-						<quantity>2023</quantity>
+						<quantity>330</quantity>
 					</Point>
 					<Point>
 						<position>69</position>
-						<quantity>2023</quantity>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
 						<position>70</position>
-						<quantity>2023</quantity>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
 						<position>71</position>
-						<quantity>2023</quantity>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
 						<position>72</position>
-						<quantity>2022</quantity>
+						<quantity>1298</quantity>
 					</Point>
 					<Point>
 						<position>73</position>
-						<quantity>1771</quantity>
+						<quantity>1500</quantity>
 					</Point>
 					<Point>
 						<position>74</position>
-						<quantity>2023</quantity>
+						<quantity>1396</quantity>
 					</Point>
 					<Point>
 						<position>75</position>
-						<quantity>1724</quantity>
+						<quantity>1022</quantity>
 					</Point>
 					<Point>
 						<position>76</position>
-						<quantity>210</quantity>
+						<quantity>209</quantity>
 					</Point>
 					<Point>
 						<position>77</position>
-						<quantity>1034</quantity>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
 						<position>78</position>
-						<quantity>815</quantity>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
 						<position>79</position>
-						<quantity>450</quantity>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
 						<position>80</position>
-						<quantity>173</quantity>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
 						<position>81</position>
@@ -990,315 +351,315 @@
 					</Point>
 					<Point>
 						<position>82</position>
-						<quantity>0</quantity>
+						<quantity>270</quantity>
 					</Point>
 					<Point>
 						<position>83</position>
-						<quantity>0</quantity>
+						<quantity>378</quantity>
 					</Point>
 					<Point>
 						<position>84</position>
-						<quantity>329</quantity>
+						<quantity>286</quantity>
 					</Point>
 					<Point>
 						<position>85</position>
-						<quantity>1892</quantity>
+						<quantity>1248</quantity>
 					</Point>
 					<Point>
 						<position>86</position>
-						<quantity>1898</quantity>
+						<quantity>567</quantity>
 					</Point>
 					<Point>
 						<position>87</position>
-						<quantity>2022</quantity>
+						<quantity>454</quantity>
 					</Point>
 					<Point>
 						<position>88</position>
-						<quantity>1737</quantity>
+						<quantity>180</quantity>
 					</Point>
 					<Point>
 						<position>89</position>
-						<quantity>930</quantity>
+						<quantity>575</quantity>
 					</Point>
 					<Point>
 						<position>90</position>
-						<quantity>1856</quantity>
+						<quantity>1981</quantity>
 					</Point>
 					<Point>
 						<position>91</position>
-						<quantity>1670</quantity>
+						<quantity>2017</quantity>
 					</Point>
 					<Point>
 						<position>92</position>
-						<quantity>1670</quantity>
+						<quantity>1106</quantity>
 					</Point>
 					<Point>
 						<position>93</position>
-						<quantity>1970</quantity>
+						<quantity>1678</quantity>
 					</Point>
 					<Point>
 						<position>94</position>
-						<quantity>2020</quantity>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
 						<position>95</position>
-						<quantity>2021</quantity>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
 						<position>96</position>
-						<quantity>2023</quantity>
+						<quantity>298</quantity>
 					</Point>
 					<Point>
 						<position>97</position>
-						<quantity>2023</quantity>
+						<quantity>1332</quantity>
 					</Point>
 					<Point>
 						<position>98</position>
-						<quantity>1994</quantity>
+						<quantity>1363</quantity>
 					</Point>
 					<Point>
 						<position>99</position>
-						<quantity>1567</quantity>
+						<quantity>1275</quantity>
 					</Point>
 					<Point>
 						<position>100</position>
-						<quantity>0</quantity>
+						<quantity>1369</quantity>
 					</Point>
 					<Point>
 						<position>101</position>
-						<quantity>0</quantity>
+						<quantity>1374</quantity>
 					</Point>
 					<Point>
 						<position>102</position>
-						<quantity>185</quantity>
+						<quantity>964</quantity>
 					</Point>
 					<Point>
 						<position>103</position>
-						<quantity>82</quantity>
+						<quantity>1375</quantity>
 					</Point>
 					<Point>
 						<position>104</position>
-						<quantity>0</quantity>
+						<quantity>605</quantity>
 					</Point>
 					<Point>
 						<position>105</position>
-						<quantity>0</quantity>
+						<quantity>875</quantity>
 					</Point>
 					<Point>
 						<position>106</position>
-						<quantity>0</quantity>
+						<quantity>1911</quantity>
 					</Point>
 					<Point>
 						<position>107</position>
-						<quantity>0</quantity>
+						<quantity>2017</quantity>
 					</Point>
 					<Point>
 						<position>108</position>
-						<quantity>23</quantity>
+						<quantity>2018</quantity>
 					</Point>
 					<Point>
 						<position>109</position>
-						<quantity>1411</quantity>
+						<quantity>2017</quantity>
 					</Point>
 					<Point>
 						<position>110</position>
-						<quantity>1434</quantity>
+						<quantity>2017</quantity>
 					</Point>
 					<Point>
 						<position>111</position>
-						<quantity>1492</quantity>
+						<quantity>2017</quantity>
 					</Point>
 					<Point>
 						<position>112</position>
-						<quantity>1437</quantity>
+						<quantity>2018</quantity>
 					</Point>
 					<Point>
 						<position>113</position>
-						<quantity>1541</quantity>
+						<quantity>2018</quantity>
 					</Point>
 					<Point>
 						<position>114</position>
-						<quantity>1436</quantity>
+						<quantity>2017</quantity>
 					</Point>
 					<Point>
 						<position>115</position>
-						<quantity>1027</quantity>
+						<quantity>2017</quantity>
 					</Point>
 					<Point>
 						<position>116</position>
-						<quantity>238</quantity>
+						<quantity>2017</quantity>
 					</Point>
 					<Point>
 						<position>117</position>
-						<quantity>0</quantity>
+						<quantity>2017</quantity>
 					</Point>
 					<Point>
 						<position>118</position>
-						<quantity>1125</quantity>
+						<quantity>2017</quantity>
 					</Point>
 					<Point>
 						<position>119</position>
-						<quantity>1846</quantity>
+						<quantity>2017</quantity>
 					</Point>
 					<Point>
 						<position>120</position>
-						<quantity>1743</quantity>
+						<quantity>1765</quantity>
 					</Point>
 					<Point>
 						<position>121</position>
-						<quantity>1776</quantity>
+						<quantity>1710</quantity>
 					</Point>
 					<Point>
 						<position>122</position>
-						<quantity>1776</quantity>
+						<quantity>1709</quantity>
 					</Point>
 					<Point>
 						<position>123</position>
-						<quantity>1674</quantity>
+						<quantity>1709</quantity>
 					</Point>
 					<Point>
 						<position>124</position>
-						<quantity>1731</quantity>
+						<quantity>1762</quantity>
 					</Point>
 					<Point>
 						<position>125</position>
-						<quantity>373</quantity>
+						<quantity>1817</quantity>
 					</Point>
 					<Point>
 						<position>126</position>
-						<quantity>1910</quantity>
+						<quantity>1765</quantity>
 					</Point>
 					<Point>
 						<position>127</position>
-						<quantity>1923</quantity>
+						<quantity>504</quantity>
 					</Point>
 					<Point>
 						<position>128</position>
-						<quantity>1923</quantity>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
 						<position>129</position>
-						<quantity>1923</quantity>
+						<quantity>98</quantity>
 					</Point>
 					<Point>
 						<position>130</position>
-						<quantity>1860</quantity>
+						<quantity>1151</quantity>
 					</Point>
 					<Point>
 						<position>131</position>
-						<quantity>0</quantity>
+						<quantity>1202</quantity>
 					</Point>
 					<Point>
 						<position>132</position>
-						<quantity>0</quantity>
+						<quantity>1048</quantity>
 					</Point>
 					<Point>
 						<position>133</position>
-						<quantity>31</quantity>
+						<quantity>1179</quantity>
 					</Point>
 					<Point>
 						<position>134</position>
-						<quantity>259</quantity>
+						<quantity>914</quantity>
 					</Point>
 					<Point>
 						<position>135</position>
-						<quantity>834</quantity>
+						<quantity>1077</quantity>
 					</Point>
 					<Point>
 						<position>136</position>
-						<quantity>1713</quantity>
+						<quantity>489</quantity>
 					</Point>
 					<Point>
 						<position>137</position>
-						<quantity>2022</quantity>
+						<quantity>1970</quantity>
 					</Point>
 					<Point>
 						<position>138</position>
-						<quantity>2023</quantity>
+						<quantity>2016</quantity>
 					</Point>
 					<Point>
 						<position>139</position>
-						<quantity>1892</quantity>
+						<quantity>2018</quantity>
 					</Point>
 					<Point>
 						<position>140</position>
-						<quantity>1992</quantity>
+						<quantity>2017</quantity>
 					</Point>
 					<Point>
 						<position>141</position>
-						<quantity>1924</quantity>
+						<quantity>1457</quantity>
 					</Point>
 					<Point>
 						<position>142</position>
-						<quantity>2022</quantity>
+						<quantity>1451</quantity>
 					</Point>
 					<Point>
 						<position>143</position>
-						<quantity>1923</quantity>
+						<quantity>2015</quantity>
 					</Point>
 					<Point>
 						<position>144</position>
-						<quantity>1922</quantity>
+						<quantity>1914</quantity>
 					</Point>
 					<Point>
 						<position>145</position>
-						<quantity>2023</quantity>
+						<quantity>1712</quantity>
 					</Point>
 					<Point>
 						<position>146</position>
-						<quantity>2023</quantity>
+						<quantity>1713</quantity>
 					</Point>
 					<Point>
 						<position>147</position>
-						<quantity>1824</quantity>
+						<quantity>1712</quantity>
 					</Point>
 					<Point>
 						<position>148</position>
-						<quantity>659</quantity>
+						<quantity>1712</quantity>
 					</Point>
 					<Point>
 						<position>149</position>
-						<quantity>1870</quantity>
+						<quantity>1713</quantity>
 					</Point>
 					<Point>
 						<position>150</position>
-						<quantity>1875</quantity>
+						<quantity>1791</quantity>
 					</Point>
 					<Point>
 						<position>151</position>
-						<quantity>1874</quantity>
+						<quantity>1424</quantity>
 					</Point>
 					<Point>
 						<position>152</position>
-						<quantity>1874</quantity>
+						<quantity>659</quantity>
 					</Point>
 					<Point>
 						<position>153</position>
-						<quantity>1873</quantity>
+						<quantity>1196</quantity>
 					</Point>
 					<Point>
 						<position>154</position>
-						<quantity>1354</quantity>
+						<quantity>859</quantity>
 					</Point>
 					<Point>
 						<position>155</position>
-						<quantity>0</quantity>
+						<quantity>910</quantity>
 					</Point>
 					<Point>
 						<position>156</position>
-						<quantity>0</quantity>
+						<quantity>1054</quantity>
 					</Point>
 					<Point>
 						<position>157</position>
-						<quantity>0</quantity>
+						<quantity>993</quantity>
 					</Point>
 					<Point>
 						<position>158</position>
-						<quantity>0</quantity>
+						<quantity>653</quantity>
 					</Point>
 					<Point>
 						<position>159</position>
-						<quantity>0</quantity>
+						<quantity>172</quantity>
 					</Point>
 					<Point>
 						<position>160</position>
@@ -1306,1587 +667,35 @@
 					</Point>
 					<Point>
 						<position>161</position>
-						<quantity>0</quantity>
+						<quantity>1760</quantity>
 					</Point>
 					<Point>
 						<position>162</position>
-						<quantity>0</quantity>
+						<quantity>2017</quantity>
 					</Point>
 					<Point>
 						<position>163</position>
-						<quantity>0</quantity>
+						<quantity>1572</quantity>
 					</Point>
 					<Point>
 						<position>164</position>
-						<quantity>0</quantity>
+						<quantity>2016</quantity>
 					</Point>
 					<Point>
 						<position>165</position>
-						<quantity>0</quantity>
+						<quantity>2017</quantity>
 					</Point>
 					<Point>
 						<position>166</position>
-						<quantity>0</quantity>
+						<quantity>1966</quantity>
 					</Point>
 					<Point>
 						<position>167</position>
-						<quantity>0</quantity>
+						<quantity>1770</quantity>
 					</Point>
 					<Point>
 						<position>168</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>169</position>
-						<quantity>436</quantity>
-					</Point>
-					<Point>
-						<position>170</position>
-						<quantity>70</quantity>
-					</Point>
-					<Point>
-						<position>171</position>
-						<quantity>203</quantity>
-					</Point>
-					<Point>
-						<position>172</position>
-						<quantity>200</quantity>
-					</Point>
-					<Point>
-						<position>173</position>
-						<quantity>1867</quantity>
-					</Point>
-					<Point>
-						<position>174</position>
-						<quantity>1768</quantity>
-					</Point>
-					<Point>
-						<position>175</position>
-						<quantity>1759</quantity>
-					</Point>
-					<Point>
-						<position>176</position>
-						<quantity>1144</quantity>
-					</Point>
-					<Point>
-						<position>177</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>178</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>179</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>180</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>181</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>182</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>183</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>184</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>185</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>186</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>187</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>188</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>189</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>190</position>
-						<quantity>148</quantity>
-					</Point>
-					<Point>
-						<position>191</position>
-						<quantity>403</quantity>
-					</Point>
-					<Point>
-						<position>192</position>
-						<quantity>1082</quantity>
-					</Point>
-					<Point>
-						<position>193</position>
-						<quantity>619</quantity>
-					</Point>
-					<Point>
-						<position>194</position>
-						<quantity>128</quantity>
-					</Point>
-					<Point>
-						<position>195</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>196</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>197</position>
-						<quantity>94</quantity>
-					</Point>
-					<Point>
-						<position>198</position>
-						<quantity>1099</quantity>
-					</Point>
-					<Point>
-						<position>199</position>
-						<quantity>1979</quantity>
-					</Point>
-					<Point>
-						<position>200</position>
-						<quantity>1985</quantity>
-					</Point>
-					<Point>
-						<position>201</position>
-						<quantity>1923</quantity>
-					</Point>
-					<Point>
-						<position>202</position>
-						<quantity>1552</quantity>
-					</Point>
-					<Point>
-						<position>203</position>
-						<quantity>1421</quantity>
-					</Point>
-					<Point>
-						<position>204</position>
-						<quantity>2020</quantity>
-					</Point>
-					<Point>
-						<position>205</position>
-						<quantity>986</quantity>
-					</Point>
-					<Point>
-						<position>206</position>
-						<quantity>2001</quantity>
-					</Point>
-					<Point>
-						<position>207</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>208</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>209</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>210</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>211</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>212</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>213</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>214</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>215</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>216</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>217</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>218</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>219</position>
-						<quantity>2001</quantity>
-					</Point>
-					<Point>
-						<position>220</position>
-						<quantity>632</quantity>
-					</Point>
-					<Point>
-						<position>221</position>
-						<quantity>1991</quantity>
-					</Point>
-					<Point>
-						<position>222</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>223</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>224</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>225</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>226</position>
-						<quantity>2022</quantity>
-					</Point>
-					<Point>
-						<position>227</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>228</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>229</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>230</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>231</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>232</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>233</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>234</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>235</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>236</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>237</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>238</position>
-						<quantity>2025</quantity>
-					</Point>
-					<Point>
-						<position>239</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>240</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>241</position>
-						<quantity>1328</quantity>
-					</Point>
-					<Point>
-						<position>242</position>
-						<quantity>205</quantity>
-					</Point>
-					<Point>
-						<position>243</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>244</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>245</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>246</position>
-						<quantity>1765</quantity>
-					</Point>
-					<Point>
-						<position>247</position>
-						<quantity>2022</quantity>
-					</Point>
-					<Point>
-						<position>248</position>
-						<quantity>1945</quantity>
-					</Point>
-					<Point>
-						<position>249</position>
-						<quantity>1200</quantity>
-					</Point>
-					<Point>
-						<position>250</position>
-						<quantity>397</quantity>
-					</Point>
-					<Point>
-						<position>251</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>252</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>253</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>254</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>255</position>
-						<quantity>84</quantity>
-					</Point>
-					<Point>
-						<position>256</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>257</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>258</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>259</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>260</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>261</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>262</position>
-						<quantity>894</quantity>
-					</Point>
-					<Point>
-						<position>263</position>
-						<quantity>1724</quantity>
-					</Point>
-					<Point>
-						<position>264</position>
-						<quantity>1369</quantity>
-					</Point>
-					<Point>
-						<position>265</position>
-						<quantity>1910</quantity>
-					</Point>
-					<Point>
-						<position>266</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>267</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>268</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>269</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>270</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>271</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>272</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>273</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>274</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>275</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>276</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>277</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>278</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>279</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>280</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>281</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>282</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>283</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>284</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>285</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>286</position>
-						<quantity>272</quantity>
-					</Point>
-					<Point>
-						<position>287</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>288</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>289</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>290</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>291</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>292</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>293</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>294</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>295</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>296</position>
-						<quantity>216</quantity>
-					</Point>
-					<Point>
-						<position>297</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>298</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>299</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>300</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>301</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>302</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>303</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>304</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>305</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>306</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>307</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>308</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>309</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>310</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>311</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>312</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>313</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>314</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>315</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>316</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>317</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>318</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>319</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>320</position>
-						<quantity>10</quantity>
-					</Point>
-					<Point>
-						<position>321</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>322</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>323</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>324</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>325</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>326</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>327</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>328</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>329</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>330</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>331</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>332</position>
-						<quantity>266</quantity>
-					</Point>
-					<Point>
-						<position>333</position>
-						<quantity>319</quantity>
-					</Point>
-					<Point>
-						<position>334</position>
-						<quantity>1082</quantity>
-					</Point>
-					<Point>
-						<position>335</position>
-						<quantity>149</quantity>
-					</Point>
-					<Point>
-						<position>336</position>
-						<quantity>144</quantity>
-					</Point>
-					<Point>
-						<position>337</position>
-						<quantity>597</quantity>
-					</Point>
-					<Point>
-						<position>338</position>
-						<quantity>1133</quantity>
-					</Point>
-					<Point>
-						<position>339</position>
-						<quantity>1759</quantity>
-					</Point>
-					<Point>
-						<position>340</position>
-						<quantity>186</quantity>
-					</Point>
-					<Point>
-						<position>341</position>
-						<quantity>1715</quantity>
-					</Point>
-					<Point>
-						<position>342</position>
-						<quantity>1718</quantity>
-					</Point>
-					<Point>
-						<position>343</position>
-						<quantity>1718</quantity>
-					</Point>
-					<Point>
-						<position>344</position>
-						<quantity>1718</quantity>
-					</Point>
-					<Point>
-						<position>345</position>
-						<quantity>1719</quantity>
-					</Point>
-					<Point>
-						<position>346</position>
-						<quantity>1285</quantity>
-					</Point>
-					<Point>
-						<position>347</position>
-						<quantity>748</quantity>
-					</Point>
-					<Point>
-						<position>348</position>
-						<quantity>681</quantity>
-					</Point>
-					<Point>
-						<position>349</position>
-						<quantity>0</quantity>
-					</Point>
-					<Point>
-						<position>350</position>
-						<quantity>1433</quantity>
-					</Point>
-					<Point>
-						<position>351</position>
-						<quantity>1730</quantity>
-					</Point>
-					<Point>
-						<position>352</position>
-						<quantity>1644</quantity>
-					</Point>
-					<Point>
-						<position>353</position>
-						<quantity>2022</quantity>
-					</Point>
-					<Point>
-						<position>354</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>355</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>356</position>
-						<quantity>2022</quantity>
-					</Point>
-					<Point>
-						<position>357</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>358</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>359</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>360</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>361</position>
-						<quantity>2022</quantity>
-					</Point>
-					<Point>
-						<position>362</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>363</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>364</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>365</position>
-						<quantity>1724</quantity>
-					</Point>
-					<Point>
-						<position>366</position>
-						<quantity>1621</quantity>
-					</Point>
-					<Point>
-						<position>367</position>
-						<quantity>1621</quantity>
-					</Point>
-					<Point>
-						<position>368</position>
-						<quantity>1621</quantity>
-					</Point>
-					<Point>
-						<position>369</position>
-						<quantity>1621</quantity>
-					</Point>
-					<Point>
-						<position>370</position>
-						<quantity>1621</quantity>
-					</Point>
-					<Point>
-						<position>371</position>
-						<quantity>1621</quantity>
-					</Point>
-					<Point>
-						<position>372</position>
-						<quantity>1508</quantity>
-					</Point>
-					<Point>
-						<position>373</position>
-						<quantity>1303</quantity>
-					</Point>
-					<Point>
-						<position>374</position>
-						<quantity>1681</quantity>
-					</Point>
-					<Point>
-						<position>375</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>376</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>377</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>378</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>379</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>380</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>381</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>382</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>383</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>384</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>385</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>386</position>
-						<quantity>2022</quantity>
-					</Point>
-					<Point>
-						<position>387</position>
-						<quantity>2022</quantity>
-					</Point>
-					<Point>
-						<position>388</position>
-						<quantity>2022</quantity>
-					</Point>
-					<Point>
-						<position>389</position>
-						<quantity>1922</quantity>
-					</Point>
-					<Point>
-						<position>390</position>
-						<quantity>1921</quantity>
-					</Point>
-					<Point>
-						<position>391</position>
-						<quantity>1824</quantity>
-					</Point>
-					<Point>
-						<position>392</position>
-						<quantity>1719</quantity>
-					</Point>
-					<Point>
-						<position>393</position>
-						<quantity>1718</quantity>
-					</Point>
-					<Point>
-						<position>394</position>
-						<quantity>1718</quantity>
-					</Point>
-					<Point>
-						<position>395</position>
-						<quantity>1718</quantity>
-					</Point>
-					<Point>
-						<position>396</position>
-						<quantity>1824</quantity>
-					</Point>
-					<Point>
-						<position>397</position>
-						<quantity>1921</quantity>
-					</Point>
-					<Point>
-						<position>398</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>399</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>400</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>401</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>402</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>403</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>404</position>
-						<quantity>2022</quantity>
-					</Point>
-					<Point>
-						<position>405</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>406</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>407</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>408</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>409</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>410</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>411</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>412</position>
-						<quantity>2000</quantity>
-					</Point>
-					<Point>
-						<position>413</position>
-						<quantity>1622</quantity>
-					</Point>
-					<Point>
-						<position>414</position>
-						<quantity>1621</quantity>
-					</Point>
-					<Point>
-						<position>415</position>
-						<quantity>1621</quantity>
-					</Point>
-					<Point>
-						<position>416</position>
-						<quantity>1621</quantity>
-					</Point>
-					<Point>
-						<position>417</position>
-						<quantity>1621</quantity>
-					</Point>
-					<Point>
-						<position>418</position>
-						<quantity>1622</quantity>
-					</Point>
-					<Point>
-						<position>419</position>
-						<quantity>1868</quantity>
-					</Point>
-					<Point>
-						<position>420</position>
-						<quantity>1535</quantity>
-					</Point>
-					<Point>
-						<position>421</position>
-						<quantity>819</quantity>
-					</Point>
-					<Point>
-						<position>422</position>
-						<quantity>1785</quantity>
-					</Point>
-					<Point>
-						<position>423</position>
-						<quantity>2022</quantity>
-					</Point>
-					<Point>
-						<position>424</position>
-						<quantity>2022</quantity>
-					</Point>
-					<Point>
-						<position>425</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>426</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>427</position>
-						<quantity>1877</quantity>
-					</Point>
-					<Point>
-						<position>428</position>
-						<quantity>1785</quantity>
-					</Point>
-					<Point>
-						<position>429</position>
-						<quantity>1944</quantity>
-					</Point>
-					<Point>
-						<position>430</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>431</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>432</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>433</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>434</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>435</position>
-						<quantity>2025</quantity>
-					</Point>
-					<Point>
-						<position>436</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>437</position>
-						<quantity>2025</quantity>
-					</Point>
-					<Point>
-						<position>438</position>
-						<quantity>1875</quantity>
-					</Point>
-					<Point>
-						<position>439</position>
-						<quantity>1825</quantity>
-					</Point>
-					<Point>
-						<position>440</position>
-						<quantity>1773</quantity>
-					</Point>
-					<Point>
-						<position>441</position>
-						<quantity>1772</quantity>
-					</Point>
-					<Point>
-						<position>442</position>
-						<quantity>1824</quantity>
-					</Point>
-					<Point>
-						<position>443</position>
-						<quantity>1725</quantity>
-					</Point>
-					<Point>
-						<position>444</position>
-						<quantity>1383</quantity>
-					</Point>
-					<Point>
-						<position>445</position>
-						<quantity>1995</quantity>
-					</Point>
-					<Point>
-						<position>446</position>
-						<quantity>1998</quantity>
-					</Point>
-					<Point>
-						<position>447</position>
-						<quantity>1997</quantity>
-					</Point>
-					<Point>
-						<position>448</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>449</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>450</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>451</position>
-						<quantity>1729</quantity>
-					</Point>
-					<Point>
-						<position>452</position>
-						<quantity>1157</quantity>
-					</Point>
-					<Point>
-						<position>453</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>454</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>455</position>
-						<quantity>2025</quantity>
-					</Point>
-					<Point>
-						<position>456</position>
-						<quantity>2025</quantity>
-					</Point>
-					<Point>
-						<position>457</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>458</position>
-						<quantity>2025</quantity>
-					</Point>
-					<Point>
-						<position>459</position>
-						<quantity>2025</quantity>
-					</Point>
-					<Point>
-						<position>460</position>
-						<quantity>2025</quantity>
-					</Point>
-					<Point>
-						<position>461</position>
-						<quantity>1723</quantity>
-					</Point>
-					<Point>
-						<position>462</position>
-						<quantity>1719</quantity>
-					</Point>
-					<Point>
-						<position>463</position>
-						<quantity>1718</quantity>
-					</Point>
-					<Point>
-						<position>464</position>
-						<quantity>1718</quantity>
-					</Point>
-					<Point>
-						<position>465</position>
-						<quantity>1718</quantity>
-					</Point>
-					<Point>
-						<position>466</position>
-						<quantity>1718</quantity>
-					</Point>
-					<Point>
-						<position>467</position>
-						<quantity>1821</quantity>
-					</Point>
-					<Point>
-						<position>468</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>469</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>470</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>471</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>472</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>473</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>474</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>475</position>
-						<quantity>2025</quantity>
-					</Point>
-					<Point>
-						<position>476</position>
-						<quantity>2025</quantity>
-					</Point>
-					<Point>
-						<position>477</position>
-						<quantity>2025</quantity>
-					</Point>
-					<Point>
-						<position>478</position>
-						<quantity>2025</quantity>
-					</Point>
-					<Point>
-						<position>479</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>480</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>481</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>482</position>
-						<quantity>2025</quantity>
-					</Point>
-					<Point>
-						<position>483</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>484</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>485</position>
-						<quantity>1624</quantity>
-					</Point>
-					<Point>
-						<position>486</position>
-						<quantity>1621</quantity>
-					</Point>
-					<Point>
-						<position>487</position>
-						<quantity>1621</quantity>
-					</Point>
-					<Point>
-						<position>488</position>
-						<quantity>1622</quantity>
-					</Point>
-					<Point>
-						<position>489</position>
-						<quantity>1522</quantity>
-					</Point>
-					<Point>
-						<position>490</position>
-						<quantity>1522</quantity>
-					</Point>
-					<Point>
-						<position>491</position>
-						<quantity>1620</quantity>
-					</Point>
-					<Point>
-						<position>492</position>
-						<quantity>1920</quantity>
-					</Point>
-					<Point>
-						<position>493</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>494</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>495</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>496</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>497</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>498</position>
-						<quantity>2025</quantity>
-					</Point>
-					<Point>
-						<position>499</position>
-						<quantity>2025</quantity>
-					</Point>
-					<Point>
-						<position>500</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>501</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>502</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>503</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>504</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>505</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>506</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>507</position>
-						<quantity>2025</quantity>
-					</Point>
-					<Point>
-						<position>508</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>509</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>510</position>
-						<quantity>1922</quantity>
-					</Point>
-					<Point>
-						<position>511</position>
-						<quantity>1921</quantity>
-					</Point>
-					<Point>
-						<position>512</position>
-						<quantity>1921</quantity>
-					</Point>
-					<Point>
-						<position>513</position>
-						<quantity>1921</quantity>
-					</Point>
-					<Point>
-						<position>514</position>
-						<quantity>1925</quantity>
-					</Point>
-					<Point>
-						<position>515</position>
-						<quantity>1066</quantity>
-					</Point>
-					<Point>
-						<position>516</position>
-						<quantity>1666</quantity>
-					</Point>
-					<Point>
-						<position>517</position>
-						<quantity>1764</quantity>
-					</Point>
-					<Point>
-						<position>518</position>
-						<quantity>1871</quantity>
-					</Point>
-					<Point>
-						<position>519</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>520</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>521</position>
-						<quantity>1972</quantity>
-					</Point>
-					<Point>
-						<position>522</position>
-						<quantity>1922</quantity>
-					</Point>
-					<Point>
-						<position>523</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>524</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>525</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>526</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>527</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>528</position>
-						<quantity>2022</quantity>
-					</Point>
-					<Point>
-						<position>529</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>530</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>531</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>532</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>533</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>534</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>535</position>
-						<quantity>2022</quantity>
-					</Point>
-					<Point>
-						<position>536</position>
-						<quantity>2022</quantity>
-					</Point>
-					<Point>
-						<position>537</position>
-						<quantity>2022</quantity>
-					</Point>
-					<Point>
-						<position>538</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>539</position>
-						<quantity>2022</quantity>
-					</Point>
-					<Point>
-						<position>540</position>
-						<quantity>2022</quantity>
-					</Point>
-					<Point>
-						<position>541</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>542</position>
-						<quantity>2022</quantity>
-					</Point>
-					<Point>
-						<position>543</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>544</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>545</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>546</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>547</position>
-						<quantity>2022</quantity>
-					</Point>
-					<Point>
-						<position>548</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>549</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>550</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>551</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>552</position>
-						<quantity>2023</quantity>
-					</Point>
-					<Point>
-						<position>553</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>554</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>555</position>
-						<quantity>2024</quantity>
-					</Point>
-					<Point>
-						<position>556</position>
-						<quantity>2023</quantity>
+						<quantity>1517</quantity>
 					</Point>
 			</Period>
 	</TimeSeries>
