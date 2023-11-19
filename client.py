@@ -70,6 +70,9 @@ class Client:
             }
         )
 
+        if "Publication_MarketDocument" not in resp_dict:
+            return pd.DataFrame(columns=["quantity"])
+
         TimeSeries = resp_dict["Publication_MarketDocument"]["TimeSeries"]
         if isinstance(TimeSeries, list):
             timeseries_datas = TimeSeries

@@ -1,910 +1,3005 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Publication_MarketDocument xmlns="urn:iec62325.351:tc57wg16:451-3:publicationdocument:7:0">
-	<mRID>0f333107e70d4989aee2897b60012cf6</mRID>
+	<mRID>b8b15da47dab4a39974d624658388448</mRID>
 	<revisionNumber>1</revisionNumber>
-	<type>A44</type>
+	<type>A11</type>
 	<sender_MarketParticipant.mRID codingScheme="A01">10X1001A1001A450</sender_MarketParticipant.mRID>
 	<sender_MarketParticipant.marketRole.type>A32</sender_MarketParticipant.marketRole.type>
 	<receiver_MarketParticipant.mRID codingScheme="A01">10X1001A1001A450</receiver_MarketParticipant.mRID>
 	<receiver_MarketParticipant.marketRole.type>A33</receiver_MarketParticipant.marketRole.type>
-	<createdDateTime>2023-11-08T17:24:43Z</createdDateTime>
+	<createdDateTime>2023-11-19T05:53:37Z</createdDateTime>
 	<period.timeInterval>
-		<start>2018-10-30T23:00Z</start>
-		<end>2018-11-07T23:00Z</end>
+		<start>2023-01-01T00:00Z</start>
+		<end>2023-02-01T00:00Z</end>
 	</period.timeInterval>
 	<TimeSeries>
 		<mRID>1</mRID>
-		<businessType>A62</businessType>
+		<businessType>A66</businessType>
 		<in_Domain.mRID codingScheme="A01">10YNL----------L</in_Domain.mRID>
-		<out_Domain.mRID codingScheme="A01">10YNL----------L</out_Domain.mRID>
-		<currency_Unit.name>EUR</currency_Unit.name>
-		<price_Measure_Unit.name>MWH</price_Measure_Unit.name>
+		<out_Domain.mRID codingScheme="A01">10YNO-2--------T</out_Domain.mRID>
+		<quantity_Measure_Unit.name>MAW</quantity_Measure_Unit.name>
 		<curveType>A01</curveType>
 			<Period>
 				<timeInterval>
-					<start>2018-10-30T23:00Z</start>
-					<end>2018-10-31T23:00Z</end>
+					<start>2023-01-01T00:00Z</start>
+					<end>2023-02-01T00:00Z</end>
 				</timeInterval>
 				<resolution>PT60M</resolution>
 					<Point>
 						<position>1</position>
-						<price.amount>38.49</price.amount>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
 						<position>2</position>
-						<price.amount>38.29</price.amount>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
 						<position>3</position>
-						<price.amount>39.00</price.amount>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
 						<position>4</position>
-						<price.amount>39.00</price.amount>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
 						<position>5</position>
-						<price.amount>39.72</price.amount>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
 						<position>6</position>
-						<price.amount>42.08</price.amount>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
 						<position>7</position>
-						<price.amount>64.00</price.amount>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
 						<position>8</position>
-						<price.amount>49.90</price.amount>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
 						<position>9</position>
-						<price.amount>52.40</price.amount>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
 						<position>10</position>
-						<price.amount>69.90</price.amount>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
 						<position>11</position>
-						<price.amount>56.40</price.amount>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
 						<position>12</position>
-						<price.amount>55.00</price.amount>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
 						<position>13</position>
-						<price.amount>55.00</price.amount>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
 						<position>14</position>
-						<price.amount>51.40</price.amount>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
 						<position>15</position>
-						<price.amount>61.65</price.amount>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
 						<position>16</position>
-						<price.amount>69.16</price.amount>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
 						<position>17</position>
-						<price.amount>73.27</price.amount>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
 						<position>18</position>
-						<price.amount>82.07</price.amount>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
 						<position>19</position>
-						<price.amount>74.02</price.amount>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
 						<position>20</position>
-						<price.amount>62.20</price.amount>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
 						<position>21</position>
-						<price.amount>50.08</price.amount>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
 						<position>22</position>
-						<price.amount>63.00</price.amount>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
 						<position>23</position>
-						<price.amount>52.50</price.amount>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
 						<position>24</position>
-						<price.amount>51.90</price.amount>
+						<quantity>0</quantity>
 					</Point>
-			</Period>
-	</TimeSeries>
-	<TimeSeries>
-		<mRID>2</mRID>
-		<businessType>A62</businessType>
-		<in_Domain.mRID codingScheme="A01">10YNL----------L</in_Domain.mRID>
-		<out_Domain.mRID codingScheme="A01">10YNL----------L</out_Domain.mRID>
-		<currency_Unit.name>EUR</currency_Unit.name>
-		<price_Measure_Unit.name>MWH</price_Measure_Unit.name>
-		<curveType>A01</curveType>
-			<Period>
-				<timeInterval>
-					<start>2018-10-31T23:00Z</start>
-					<end>2018-11-01T23:00Z</end>
-				</timeInterval>
-				<resolution>PT60M</resolution>
 					<Point>
-						<position>1</position>
-						<price.amount>44.90</price.amount>
+						<position>25</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>2</position>
-						<price.amount>42.46</price.amount>
+						<position>26</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>3</position>
-						<price.amount>44.00</price.amount>
+						<position>27</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>4</position>
-						<price.amount>41.42</price.amount>
+						<position>28</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>5</position>
-						<price.amount>41.40</price.amount>
+						<position>29</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>6</position>
-						<price.amount>44.19</price.amount>
+						<position>30</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>7</position>
-						<price.amount>49.22</price.amount>
+						<position>31</position>
+						<quantity>13</quantity>
 					</Point>
 					<Point>
-						<position>8</position>
-						<price.amount>51.40</price.amount>
+						<position>32</position>
+						<quantity>326</quantity>
 					</Point>
 					<Point>
-						<position>9</position>
-						<price.amount>51.40</price.amount>
+						<position>33</position>
+						<quantity>608</quantity>
 					</Point>
 					<Point>
-						<position>10</position>
-						<price.amount>59.66</price.amount>
+						<position>34</position>
+						<quantity>349</quantity>
 					</Point>
 					<Point>
-						<position>11</position>
-						<price.amount>52.00</price.amount>
+						<position>35</position>
+						<quantity>619</quantity>
 					</Point>
 					<Point>
-						<position>12</position>
-						<price.amount>55.00</price.amount>
+						<position>36</position>
+						<quantity>577</quantity>
 					</Point>
 					<Point>
-						<position>13</position>
-						<price.amount>63.71</price.amount>
+						<position>37</position>
+						<quantity>307</quantity>
 					</Point>
 					<Point>
-						<position>14</position>
-						<price.amount>55.37</price.amount>
+						<position>38</position>
+						<quantity>432</quantity>
 					</Point>
 					<Point>
-						<position>15</position>
-						<price.amount>53.07</price.amount>
+						<position>39</position>
+						<quantity>511</quantity>
 					</Point>
 					<Point>
-						<position>16</position>
-						<price.amount>53.09</price.amount>
+						<position>40</position>
+						<quantity>536</quantity>
 					</Point>
 					<Point>
-						<position>17</position>
-						<price.amount>50.38</price.amount>
+						<position>41</position>
+						<quantity>620</quantity>
 					</Point>
 					<Point>
-						<position>18</position>
-						<price.amount>62.99</price.amount>
+						<position>42</position>
+						<quantity>619</quantity>
 					</Point>
 					<Point>
-						<position>19</position>
-						<price.amount>70.69</price.amount>
+						<position>43</position>
+						<quantity>619</quantity>
 					</Point>
 					<Point>
-						<position>20</position>
-						<price.amount>65.00</price.amount>
+						<position>44</position>
+						<quantity>617</quantity>
 					</Point>
 					<Point>
-						<position>21</position>
-						<price.amount>53.98</price.amount>
+						<position>45</position>
+						<quantity>554</quantity>
 					</Point>
 					<Point>
-						<position>22</position>
-						<price.amount>46.18</price.amount>
+						<position>46</position>
+						<quantity>256</quantity>
 					</Point>
 					<Point>
-						<position>23</position>
-						<price.amount>50.70</price.amount>
+						<position>47</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>24</position>
-						<price.amount>50.70</price.amount>
+						<position>48</position>
+						<quantity>0</quantity>
 					</Point>
-			</Period>
-	</TimeSeries>
-	<TimeSeries>
-		<mRID>3</mRID>
-		<businessType>A62</businessType>
-		<in_Domain.mRID codingScheme="A01">10YNL----------L</in_Domain.mRID>
-		<out_Domain.mRID codingScheme="A01">10YNL----------L</out_Domain.mRID>
-		<currency_Unit.name>EUR</currency_Unit.name>
-		<price_Measure_Unit.name>MWH</price_Measure_Unit.name>
-		<curveType>A01</curveType>
-			<Period>
-				<timeInterval>
-					<start>2018-11-01T23:00Z</start>
-					<end>2018-11-02T23:00Z</end>
-				</timeInterval>
-				<resolution>PT60M</resolution>
 					<Point>
-						<position>1</position>
-						<price.amount>54.90</price.amount>
+						<position>49</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>2</position>
-						<price.amount>50.00</price.amount>
+						<position>50</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>3</position>
-						<price.amount>42.15</price.amount>
+						<position>51</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>4</position>
-						<price.amount>41.89</price.amount>
+						<position>52</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>5</position>
-						<price.amount>44.90</price.amount>
+						<position>53</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>6</position>
-						<price.amount>48.10</price.amount>
+						<position>54</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>7</position>
-						<price.amount>48.41</price.amount>
+						<position>55</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>8</position>
-						<price.amount>54.12</price.amount>
+						<position>56</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>9</position>
-						<price.amount>60.70</price.amount>
+						<position>57</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>10</position>
-						<price.amount>70.70</price.amount>
+						<position>58</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>11</position>
-						<price.amount>50.22</price.amount>
+						<position>59</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>12</position>
-						<price.amount>48.70</price.amount>
+						<position>60</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>13</position>
-						<price.amount>49.50</price.amount>
+						<position>61</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>14</position>
-						<price.amount>53.45</price.amount>
+						<position>62</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>15</position>
-						<price.amount>62.82</price.amount>
+						<position>63</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>16</position>
-						<price.amount>66.03</price.amount>
+						<position>64</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>17</position>
-						<price.amount>70.99</price.amount>
+						<position>65</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>18</position>
-						<price.amount>81.14</price.amount>
+						<position>66</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>19</position>
-						<price.amount>77.13</price.amount>
+						<position>67</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>20</position>
-						<price.amount>72.01</price.amount>
+						<position>68</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>21</position>
-						<price.amount>59.09</price.amount>
+						<position>69</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>22</position>
-						<price.amount>52.15</price.amount>
+						<position>70</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>23</position>
-						<price.amount>48.70</price.amount>
+						<position>71</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>24</position>
-						<price.amount>48.42</price.amount>
+						<position>72</position>
+						<quantity>0</quantity>
 					</Point>
-			</Period>
-	</TimeSeries>
-	<TimeSeries>
-		<mRID>4</mRID>
-		<businessType>A62</businessType>
-		<in_Domain.mRID codingScheme="A01">10YNL----------L</in_Domain.mRID>
-		<out_Domain.mRID codingScheme="A01">10YNL----------L</out_Domain.mRID>
-		<currency_Unit.name>EUR</currency_Unit.name>
-		<price_Measure_Unit.name>MWH</price_Measure_Unit.name>
-		<curveType>A01</curveType>
-			<Period>
-				<timeInterval>
-					<start>2018-11-02T23:00Z</start>
-					<end>2018-11-03T23:00Z</end>
-				</timeInterval>
-				<resolution>PT60M</resolution>
 					<Point>
-						<position>1</position>
-						<price.amount>46.51</price.amount>
+						<position>73</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>2</position>
-						<price.amount>46.04</price.amount>
+						<position>74</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>3</position>
-						<price.amount>44.55</price.amount>
+						<position>75</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>4</position>
-						<price.amount>44.65</price.amount>
+						<position>76</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>5</position>
-						<price.amount>44.71</price.amount>
+						<position>77</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>6</position>
-						<price.amount>44.81</price.amount>
+						<position>78</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>7</position>
-						<price.amount>50.01</price.amount>
+						<position>79</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>8</position>
-						<price.amount>55.53</price.amount>
+						<position>80</position>
+						<quantity>149</quantity>
 					</Point>
 					<Point>
-						<position>9</position>
-						<price.amount>61.50</price.amount>
+						<position>81</position>
+						<quantity>450</quantity>
 					</Point>
 					<Point>
-						<position>10</position>
-						<price.amount>65.03</price.amount>
+						<position>82</position>
+						<quantity>495</quantity>
 					</Point>
 					<Point>
-						<position>11</position>
-						<price.amount>63.19</price.amount>
+						<position>83</position>
+						<quantity>191</quantity>
 					</Point>
 					<Point>
-						<position>12</position>
-						<price.amount>54.69</price.amount>
+						<position>84</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>13</position>
-						<price.amount>45.80</price.amount>
+						<position>85</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>14</position>
-						<price.amount>45.55</price.amount>
+						<position>86</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>15</position>
-						<price.amount>47.36</price.amount>
+						<position>87</position>
+						<quantity>14</quantity>
 					</Point>
 					<Point>
-						<position>16</position>
-						<price.amount>56.60</price.amount>
+						<position>88</position>
+						<quantity>322</quantity>
 					</Point>
 					<Point>
-						<position>17</position>
-						<price.amount>61.41</price.amount>
+						<position>89</position>
+						<quantity>606</quantity>
 					</Point>
 					<Point>
-						<position>18</position>
-						<price.amount>69.51</price.amount>
+						<position>90</position>
+						<quantity>582</quantity>
 					</Point>
 					<Point>
-						<position>19</position>
-						<price.amount>61.25</price.amount>
+						<position>91</position>
+						<quantity>487</quantity>
 					</Point>
 					<Point>
-						<position>20</position>
-						<price.amount>54.45</price.amount>
+						<position>92</position>
+						<quantity>224</quantity>
 					</Point>
 					<Point>
-						<position>21</position>
-						<price.amount>45.67</price.amount>
+						<position>93</position>
+						<quantity>34</quantity>
 					</Point>
 					<Point>
-						<position>22</position>
-						<price.amount>50.00</price.amount>
+						<position>94</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>23</position>
-						<price.amount>47.40</price.amount>
+						<position>95</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>24</position>
-						<price.amount>53.00</price.amount>
+						<position>96</position>
+						<quantity>0</quantity>
 					</Point>
-			</Period>
-	</TimeSeries>
-	<TimeSeries>
-		<mRID>5</mRID>
-		<businessType>A62</businessType>
-		<in_Domain.mRID codingScheme="A01">10YNL----------L</in_Domain.mRID>
-		<out_Domain.mRID codingScheme="A01">10YNL----------L</out_Domain.mRID>
-		<currency_Unit.name>EUR</currency_Unit.name>
-		<price_Measure_Unit.name>MWH</price_Measure_Unit.name>
-		<curveType>A01</curveType>
-			<Period>
-				<timeInterval>
-					<start>2018-11-03T23:00Z</start>
-					<end>2018-11-04T23:00Z</end>
-				</timeInterval>
-				<resolution>PT60M</resolution>
 					<Point>
-						<position>1</position>
-						<price.amount>50.00</price.amount>
+						<position>97</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>2</position>
-						<price.amount>51.24</price.amount>
+						<position>98</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>3</position>
-						<price.amount>49.90</price.amount>
+						<position>99</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>4</position>
-						<price.amount>44.79</price.amount>
+						<position>100</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>5</position>
-						<price.amount>44.90</price.amount>
+						<position>101</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>6</position>
-						<price.amount>50.00</price.amount>
+						<position>102</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>7</position>
-						<price.amount>51.90</price.amount>
+						<position>103</position>
+						<quantity>13</quantity>
 					</Point>
 					<Point>
-						<position>8</position>
-						<price.amount>50.60</price.amount>
+						<position>104</position>
+						<quantity>317</quantity>
 					</Point>
 					<Point>
-						<position>9</position>
-						<price.amount>45.48</price.amount>
+						<position>105</position>
+						<quantity>422</quantity>
 					</Point>
 					<Point>
-						<position>10</position>
-						<price.amount>49.99</price.amount>
+						<position>106</position>
+						<quantity>421</quantity>
 					</Point>
 					<Point>
-						<position>11</position>
-						<price.amount>49.80</price.amount>
+						<position>107</position>
+						<quantity>422</quantity>
 					</Point>
 					<Point>
-						<position>12</position>
-						<price.amount>55.00</price.amount>
+						<position>108</position>
+						<quantity>416</quantity>
 					</Point>
 					<Point>
-						<position>13</position>
-						<price.amount>55.00</price.amount>
+						<position>109</position>
+						<quantity>276</quantity>
 					</Point>
 					<Point>
-						<position>14</position>
-						<price.amount>46.01</price.amount>
+						<position>110</position>
+						<quantity>228</quantity>
 					</Point>
 					<Point>
-						<position>15</position>
-						<price.amount>49.90</price.amount>
+						<position>111</position>
+						<quantity>67</quantity>
 					</Point>
 					<Point>
-						<position>16</position>
-						<price.amount>51.01</price.amount>
+						<position>112</position>
+						<quantity>211</quantity>
 					</Point>
 					<Point>
-						<position>17</position>
-						<price.amount>52.30</price.amount>
+						<position>113</position>
+						<quantity>413</quantity>
 					</Point>
 					<Point>
-						<position>18</position>
-						<price.amount>62.99</price.amount>
+						<position>114</position>
+						<quantity>194</quantity>
 					</Point>
 					<Point>
-						<position>19</position>
-						<price.amount>67.17</price.amount>
+						<position>115</position>
+						<quantity>11</quantity>
 					</Point>
 					<Point>
-						<position>20</position>
-						<price.amount>60.00</price.amount>
+						<position>116</position>
+						<quantity>234</quantity>
 					</Point>
 					<Point>
-						<position>21</position>
-						<price.amount>69.90</price.amount>
+						<position>117</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>22</position>
-						<price.amount>60.70</price.amount>
+						<position>118</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>23</position>
-						<price.amount>50.10</price.amount>
+						<position>119</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>24</position>
-						<price.amount>54.72</price.amount>
+						<position>120</position>
+						<quantity>0</quantity>
 					</Point>
-			</Period>
-	</TimeSeries>
-	<TimeSeries>
-		<mRID>6</mRID>
-		<businessType>A62</businessType>
-		<in_Domain.mRID codingScheme="A01">10YNL----------L</in_Domain.mRID>
-		<out_Domain.mRID codingScheme="A01">10YNL----------L</out_Domain.mRID>
-		<currency_Unit.name>EUR</currency_Unit.name>
-		<price_Measure_Unit.name>MWH</price_Measure_Unit.name>
-		<curveType>A01</curveType>
-			<Period>
-				<timeInterval>
-					<start>2018-11-04T23:00Z</start>
-					<end>2018-11-05T23:00Z</end>
-				</timeInterval>
-				<resolution>PT60M</resolution>
 					<Point>
-						<position>1</position>
-						<price.amount>58.89</price.amount>
+						<position>121</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>2</position>
-						<price.amount>45.50</price.amount>
+						<position>122</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>3</position>
-						<price.amount>43.13</price.amount>
+						<position>123</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>4</position>
-						<price.amount>42.30</price.amount>
+						<position>124</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>5</position>
-						<price.amount>41.92</price.amount>
+						<position>125</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>6</position>
-						<price.amount>43.93</price.amount>
+						<position>126</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>7</position>
-						<price.amount>54.22</price.amount>
+						<position>127</position>
+						<quantity>8</quantity>
 					</Point>
 					<Point>
-						<position>8</position>
-						<price.amount>67.64</price.amount>
+						<position>128</position>
+						<quantity>289</quantity>
 					</Point>
 					<Point>
-						<position>9</position>
-						<price.amount>69.91</price.amount>
+						<position>129</position>
+						<quantity>422</quantity>
 					</Point>
 					<Point>
-						<position>10</position>
-						<price.amount>67.75</price.amount>
+						<position>130</position>
+						<quantity>422</quantity>
 					</Point>
 					<Point>
-						<position>11</position>
-						<price.amount>68.20</price.amount>
+						<position>131</position>
+						<quantity>418</quantity>
 					</Point>
 					<Point>
-						<position>12</position>
-						<price.amount>68.31</price.amount>
+						<position>132</position>
+						<quantity>336</quantity>
 					</Point>
 					<Point>
-						<position>13</position>
-						<price.amount>65.78</price.amount>
+						<position>133</position>
+						<quantity>422</quantity>
 					</Point>
 					<Point>
-						<position>14</position>
-						<price.amount>67.16</price.amount>
+						<position>134</position>
+						<quantity>422</quantity>
 					</Point>
 					<Point>
-						<position>15</position>
-						<price.amount>68.21</price.amount>
+						<position>135</position>
+						<quantity>422</quantity>
 					</Point>
 					<Point>
-						<position>16</position>
-						<price.amount>70.94</price.amount>
+						<position>136</position>
+						<quantity>422</quantity>
 					</Point>
 					<Point>
-						<position>17</position>
-						<price.amount>71.48</price.amount>
+						<position>137</position>
+						<quantity>422</quantity>
 					</Point>
 					<Point>
-						<position>18</position>
-						<price.amount>86.15</price.amount>
+						<position>138</position>
+						<quantity>422</quantity>
 					</Point>
 					<Point>
-						<position>19</position>
-						<price.amount>78.49</price.amount>
+						<position>139</position>
+						<quantity>422</quantity>
 					</Point>
 					<Point>
-						<position>20</position>
-						<price.amount>66.64</price.amount>
+						<position>140</position>
+						<quantity>413</quantity>
 					</Point>
 					<Point>
-						<position>21</position>
-						<price.amount>55.92</price.amount>
+						<position>141</position>
+						<quantity>219</quantity>
 					</Point>
 					<Point>
-						<position>22</position>
-						<price.amount>52.04</price.amount>
+						<position>142</position>
+						<quantity>184</quantity>
 					</Point>
 					<Point>
-						<position>23</position>
-						<price.amount>50.20</price.amount>
+						<position>143</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>24</position>
-						<price.amount>54.70</price.amount>
+						<position>144</position>
+						<quantity>0</quantity>
 					</Point>
-			</Period>
-	</TimeSeries>
-	<TimeSeries>
-		<mRID>7</mRID>
-		<businessType>A62</businessType>
-		<in_Domain.mRID codingScheme="A01">10YNL----------L</in_Domain.mRID>
-		<out_Domain.mRID codingScheme="A01">10YNL----------L</out_Domain.mRID>
-		<currency_Unit.name>EUR</currency_Unit.name>
-		<price_Measure_Unit.name>MWH</price_Measure_Unit.name>
-		<curveType>A01</curveType>
-			<Period>
-				<timeInterval>
-					<start>2018-11-05T23:00Z</start>
-					<end>2018-11-06T23:00Z</end>
-				</timeInterval>
-				<resolution>PT60M</resolution>
 					<Point>
-						<position>1</position>
-						<price.amount>58.56</price.amount>
+						<position>145</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>2</position>
-						<price.amount>49.88</price.amount>
+						<position>146</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>3</position>
-						<price.amount>44.90</price.amount>
+						<position>147</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>4</position>
-						<price.amount>43.53</price.amount>
+						<position>148</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>5</position>
-						<price.amount>43.93</price.amount>
+						<position>149</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>6</position>
-						<price.amount>48.18</price.amount>
+						<position>150</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>7</position>
-						<price.amount>57.10</price.amount>
+						<position>151</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>8</position>
-						<price.amount>67.95</price.amount>
+						<position>152</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>9</position>
-						<price.amount>70.10</price.amount>
+						<position>153</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>10</position>
-						<price.amount>68.25</price.amount>
+						<position>154</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>11</position>
-						<price.amount>66.63</price.amount>
+						<position>155</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>12</position>
-						<price.amount>63.86</price.amount>
+						<position>156</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>13</position>
-						<price.amount>60.73</price.amount>
+						<position>157</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>14</position>
-						<price.amount>62.41</price.amount>
+						<position>158</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>15</position>
-						<price.amount>63.14</price.amount>
+						<position>159</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>16</position>
-						<price.amount>64.34</price.amount>
+						<position>160</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>17</position>
-						<price.amount>66.89</price.amount>
+						<position>161</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>18</position>
-						<price.amount>74.68</price.amount>
+						<position>162</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>19</position>
-						<price.amount>84.82</price.amount>
+						<position>163</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>20</position>
-						<price.amount>73.91</price.amount>
+						<position>164</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>21</position>
-						<price.amount>65.08</price.amount>
+						<position>165</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>22</position>
-						<price.amount>52.00</price.amount>
+						<position>166</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>23</position>
-						<price.amount>48.60</price.amount>
+						<position>167</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>24</position>
-						<price.amount>54.25</price.amount>
+						<position>168</position>
+						<quantity>0</quantity>
 					</Point>
-			</Period>
-	</TimeSeries>
-	<TimeSeries>
-		<mRID>8</mRID>
-		<businessType>A62</businessType>
-		<in_Domain.mRID codingScheme="A01">10YNL----------L</in_Domain.mRID>
-		<out_Domain.mRID codingScheme="A01">10YNL----------L</out_Domain.mRID>
-		<currency_Unit.name>EUR</currency_Unit.name>
-		<price_Measure_Unit.name>MWH</price_Measure_Unit.name>
-		<curveType>A01</curveType>
-			<Period>
-				<timeInterval>
-					<start>2018-11-06T23:00Z</start>
-					<end>2018-11-07T23:00Z</end>
-				</timeInterval>
-				<resolution>PT60M</resolution>
 					<Point>
-						<position>1</position>
-						<price.amount>44.88</price.amount>
+						<position>169</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>2</position>
-						<price.amount>43.92</price.amount>
+						<position>170</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>3</position>
-						<price.amount>41.59</price.amount>
+						<position>171</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>4</position>
-						<price.amount>40.64</price.amount>
+						<position>172</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>5</position>
-						<price.amount>43.37</price.amount>
+						<position>173</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>6</position>
-						<price.amount>43.77</price.amount>
+						<position>174</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>7</position>
-						<price.amount>50.79</price.amount>
+						<position>175</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>8</position>
-						<price.amount>61.99</price.amount>
+						<position>176</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>9</position>
-						<price.amount>64.18</price.amount>
+						<position>177</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>10</position>
-						<price.amount>63.01</price.amount>
+						<position>178</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>11</position>
-						<price.amount>61.56</price.amount>
+						<position>179</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>12</position>
-						<price.amount>59.09</price.amount>
+						<position>180</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>13</position>
-						<price.amount>58.64</price.amount>
+						<position>181</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>14</position>
-						<price.amount>60.03</price.amount>
+						<position>182</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>15</position>
-						<price.amount>62.94</price.amount>
+						<position>183</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>16</position>
-						<price.amount>65.61</price.amount>
+						<position>184</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>17</position>
-						<price.amount>67.70</price.amount>
+						<position>185</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>18</position>
-						<price.amount>70.99</price.amount>
+						<position>186</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>19</position>
-						<price.amount>77.45</price.amount>
+						<position>187</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>20</position>
-						<price.amount>74.73</price.amount>
+						<position>188</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>21</position>
-						<price.amount>62.64</price.amount>
+						<position>189</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>22</position>
-						<price.amount>50.79</price.amount>
+						<position>190</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>23</position>
-						<price.amount>49.90</price.amount>
+						<position>191</position>
+						<quantity>0</quantity>
 					</Point>
 					<Point>
-						<position>24</position>
-						<price.amount>57.40</price.amount>
+						<position>192</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>193</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>194</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>195</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>196</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>197</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>198</position>
+						<quantity>13</quantity>
+					</Point>
+					<Point>
+						<position>199</position>
+						<quantity>305</quantity>
+					</Point>
+					<Point>
+						<position>200</position>
+						<quantity>422</quantity>
+					</Point>
+					<Point>
+						<position>201</position>
+						<quantity>422</quantity>
+					</Point>
+					<Point>
+						<position>202</position>
+						<quantity>422</quantity>
+					</Point>
+					<Point>
+						<position>203</position>
+						<quantity>422</quantity>
+					</Point>
+					<Point>
+						<position>204</position>
+						<quantity>422</quantity>
+					</Point>
+					<Point>
+						<position>205</position>
+						<quantity>421</quantity>
+					</Point>
+					<Point>
+						<position>206</position>
+						<quantity>422</quantity>
+					</Point>
+					<Point>
+						<position>207</position>
+						<quantity>422</quantity>
+					</Point>
+					<Point>
+						<position>208</position>
+						<quantity>422</quantity>
+					</Point>
+					<Point>
+						<position>209</position>
+						<quantity>422</quantity>
+					</Point>
+					<Point>
+						<position>210</position>
+						<quantity>422</quantity>
+					</Point>
+					<Point>
+						<position>211</position>
+						<quantity>422</quantity>
+					</Point>
+					<Point>
+						<position>212</position>
+						<quantity>422</quantity>
+					</Point>
+					<Point>
+						<position>213</position>
+						<quantity>417</quantity>
+					</Point>
+					<Point>
+						<position>214</position>
+						<quantity>299</quantity>
+					</Point>
+					<Point>
+						<position>215</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>216</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>217</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>218</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>219</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>220</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>221</position>
+						<quantity>11</quantity>
+					</Point>
+					<Point>
+						<position>222</position>
+						<quantity>289</quantity>
+					</Point>
+					<Point>
+						<position>223</position>
+						<quantity>422</quantity>
+					</Point>
+					<Point>
+						<position>224</position>
+						<quantity>422</quantity>
+					</Point>
+					<Point>
+						<position>225</position>
+						<quantity>430</quantity>
+					</Point>
+					<Point>
+						<position>226</position>
+						<quantity>619</quantity>
+					</Point>
+					<Point>
+						<position>227</position>
+						<quantity>592</quantity>
+					</Point>
+					<Point>
+						<position>228</position>
+						<quantity>316</quantity>
+					</Point>
+					<Point>
+						<position>229</position>
+						<quantity>130</quantity>
+					</Point>
+					<Point>
+						<position>230</position>
+						<quantity>424</quantity>
+					</Point>
+					<Point>
+						<position>231</position>
+						<quantity>382</quantity>
+					</Point>
+					<Point>
+						<position>232</position>
+						<quantity>240</quantity>
+					</Point>
+					<Point>
+						<position>233</position>
+						<quantity>539</quantity>
+					</Point>
+					<Point>
+						<position>234</position>
+						<quantity>621</quantity>
+					</Point>
+					<Point>
+						<position>235</position>
+						<quantity>614</quantity>
+					</Point>
+					<Point>
+						<position>236</position>
+						<quantity>460</quantity>
+					</Point>
+					<Point>
+						<position>237</position>
+						<quantity>156</quantity>
+					</Point>
+					<Point>
+						<position>238</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>239</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>240</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>241</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>242</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>243</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>244</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>245</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>246</position>
+						<quantity>13</quantity>
+					</Point>
+					<Point>
+						<position>247</position>
+						<quantity>326</quantity>
+					</Point>
+					<Point>
+						<position>248</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>249</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>250</position>
+						<quantity>607</quantity>
+					</Point>
+					<Point>
+						<position>251</position>
+						<quantity>308</quantity>
+					</Point>
+					<Point>
+						<position>252</position>
+						<quantity>144</quantity>
+					</Point>
+					<Point>
+						<position>253</position>
+						<quantity>8</quantity>
+					</Point>
+					<Point>
+						<position>254</position>
+						<quantity>188</quantity>
+					</Point>
+					<Point>
+						<position>255</position>
+						<quantity>366</quantity>
+					</Point>
+					<Point>
+						<position>256</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>257</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>258</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>259</position>
+						<quantity>606</quantity>
+					</Point>
+					<Point>
+						<position>260</position>
+						<quantity>300</quantity>
+					</Point>
+					<Point>
+						<position>261</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>262</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>263</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>264</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>265</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>266</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>267</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>268</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>269</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>270</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>271</position>
+						<quantity>151</quantity>
+					</Point>
+					<Point>
+						<position>272</position>
+						<quantity>456</quantity>
+					</Point>
+					<Point>
+						<position>273</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>274</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>275</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>276</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>277</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>278</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>279</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>280</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>281</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>282</position>
+						<quantity>621</quantity>
+					</Point>
+					<Point>
+						<position>283</position>
+						<quantity>611</quantity>
+					</Point>
+					<Point>
+						<position>284</position>
+						<quantity>384</quantity>
+					</Point>
+					<Point>
+						<position>285</position>
+						<quantity>150</quantity>
+					</Point>
+					<Point>
+						<position>286</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>287</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>288</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>289</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>290</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>291</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>292</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>293</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>294</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>295</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>296</position>
+						<quantity>151</quantity>
+					</Point>
+					<Point>
+						<position>297</position>
+						<quantity>297</quantity>
+					</Point>
+					<Point>
+						<position>298</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>299</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>300</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>301</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>302</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>303</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>304</position>
+						<quantity>245</quantity>
+					</Point>
+					<Point>
+						<position>305</position>
+						<quantity>544</quantity>
+					</Point>
+					<Point>
+						<position>306</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>307</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>308</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>309</position>
+						<quantity>621</quantity>
+					</Point>
+					<Point>
+						<position>310</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>311</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>312</position>
+						<quantity>619</quantity>
+					</Point>
+					<Point>
+						<position>313</position>
+						<quantity>585</quantity>
+					</Point>
+					<Point>
+						<position>314</position>
+						<quantity>299</quantity>
+					</Point>
+					<Point>
+						<position>315</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>316</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>317</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>318</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>319</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>320</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>321</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>322</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>323</position>
+						<quantity>13</quantity>
+					</Point>
+					<Point>
+						<position>324</position>
+						<quantity>299</quantity>
+					</Point>
+					<Point>
+						<position>325</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>326</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>327</position>
+						<quantity>13</quantity>
+					</Point>
+					<Point>
+						<position>328</position>
+						<quantity>326</quantity>
+					</Point>
+					<Point>
+						<position>329</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>330</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>331</position>
+						<quantity>613</quantity>
+					</Point>
+					<Point>
+						<position>332</position>
+						<quantity>448</quantity>
+					</Point>
+					<Point>
+						<position>333</position>
+						<quantity>580</quantity>
+					</Point>
+					<Point>
+						<position>334</position>
+						<quantity>525</quantity>
+					</Point>
+					<Point>
+						<position>335</position>
+						<quantity>380</quantity>
+					</Point>
+					<Point>
+						<position>336</position>
+						<quantity>299</quantity>
+					</Point>
+					<Point>
+						<position>337</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>338</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>339</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>340</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>341</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>342</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>343</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>344</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>345</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>346</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>347</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>348</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>349</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>350</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>351</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>352</position>
+						<quantity>183</quantity>
+					</Point>
+					<Point>
+						<position>353</position>
+						<quantity>484</quantity>
+					</Point>
+					<Point>
+						<position>354</position>
+						<quantity>600</quantity>
+					</Point>
+					<Point>
+						<position>355</position>
+						<quantity>612</quantity>
+					</Point>
+					<Point>
+						<position>356</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>357</position>
+						<quantity>619</quantity>
+					</Point>
+					<Point>
+						<position>358</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>359</position>
+						<quantity>607</quantity>
+					</Point>
+					<Point>
+						<position>360</position>
+						<quantity>300</quantity>
+					</Point>
+					<Point>
+						<position>361</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>362</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>363</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>364</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>365</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>366</position>
+						<quantity>14</quantity>
+					</Point>
+					<Point>
+						<position>367</position>
+						<quantity>326</quantity>
+					</Point>
+					<Point>
+						<position>368</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>369</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>370</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>371</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>372</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>373</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>374</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>375</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>376</position>
+						<quantity>619</quantity>
+					</Point>
+					<Point>
+						<position>377</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>378</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>379</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>380</position>
+						<quantity>619</quantity>
+					</Point>
+					<Point>
+						<position>381</position>
+						<quantity>600</quantity>
+					</Point>
+					<Point>
+						<position>382</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>383</position>
+						<quantity>614</quantity>
+					</Point>
+					<Point>
+						<position>384</position>
+						<quantity>466</quantity>
+					</Point>
+					<Point>
+						<position>385</position>
+						<quantity>268</quantity>
+					</Point>
+					<Point>
+						<position>386</position>
+						<quantity>350</quantity>
+					</Point>
+					<Point>
+						<position>387</position>
+						<quantity>590</quantity>
+					</Point>
+					<Point>
+						<position>388</position>
+						<quantity>432</quantity>
+					</Point>
+					<Point>
+						<position>389</position>
+						<quantity>529</quantity>
+					</Point>
+					<Point>
+						<position>390</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>391</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>392</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>393</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>394</position>
+						<quantity>606</quantity>
+					</Point>
+					<Point>
+						<position>395</position>
+						<quantity>299</quantity>
+					</Point>
+					<Point>
+						<position>396</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>397</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>398</position>
+						<quantity>13</quantity>
+					</Point>
+					<Point>
+						<position>399</position>
+						<quantity>325</quantity>
+					</Point>
+					<Point>
+						<position>400</position>
+						<quantity>619</quantity>
+					</Point>
+					<Point>
+						<position>401</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>402</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>403</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>404</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>405</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>406</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>407</position>
+						<quantity>609</quantity>
+					</Point>
+					<Point>
+						<position>408</position>
+						<quantity>340</quantity>
+					</Point>
+					<Point>
+						<position>409</position>
+						<quantity>197</quantity>
+					</Point>
+					<Point>
+						<position>410</position>
+						<quantity>493</quantity>
+					</Point>
+					<Point>
+						<position>411</position>
+						<quantity>503</quantity>
+					</Point>
+					<Point>
+						<position>412</position>
+						<quantity>389</quantity>
+					</Point>
+					<Point>
+						<position>413</position>
+						<quantity>237</quantity>
+					</Point>
+					<Point>
+						<position>414</position>
+						<quantity>532</quantity>
+					</Point>
+					<Point>
+						<position>415</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>416</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>417</position>
+						<quantity>607</quantity>
+					</Point>
+					<Point>
+						<position>418</position>
+						<quantity>299</quantity>
+					</Point>
+					<Point>
+						<position>419</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>420</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>421</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>422</position>
+						<quantity>11</quantity>
+					</Point>
+					<Point>
+						<position>423</position>
+						<quantity>287</quantity>
+					</Point>
+					<Point>
+						<position>424</position>
+						<quantity>140</quantity>
+					</Point>
+					<Point>
+						<position>425</position>
+						<quantity>163</quantity>
+					</Point>
+					<Point>
+						<position>426</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>427</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>428</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>429</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>430</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>431</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>432</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>433</position>
+						<quantity>133</quantity>
+					</Point>
+					<Point>
+						<position>434</position>
+						<quantity>247</quantity>
+					</Point>
+					<Point>
+						<position>435</position>
+						<quantity>199</quantity>
+					</Point>
+					<Point>
+						<position>436</position>
+						<quantity>499</quantity>
+					</Point>
+					<Point>
+						<position>437</position>
+						<quantity>621</quantity>
+					</Point>
+					<Point>
+						<position>438</position>
+						<quantity>621</quantity>
+					</Point>
+					<Point>
+						<position>439</position>
+						<quantity>621</quantity>
+					</Point>
+					<Point>
+						<position>440</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>441</position>
+						<quantity>606</quantity>
+					</Point>
+					<Point>
+						<position>442</position>
+						<quantity>299</quantity>
+					</Point>
+					<Point>
+						<position>443</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>444</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>445</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>446</position>
+						<quantity>220</quantity>
+					</Point>
+					<Point>
+						<position>447</position>
+						<quantity>497</quantity>
+					</Point>
+					<Point>
+						<position>448</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>449</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>450</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>451</position>
+						<quantity>616</quantity>
+					</Point>
+					<Point>
+						<position>452</position>
+						<quantity>525</quantity>
+					</Point>
+					<Point>
+						<position>453</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>454</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>455</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>456</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>457</position>
+						<quantity>618</quantity>
+					</Point>
+					<Point>
+						<position>458</position>
+						<quantity>572</quantity>
+					</Point>
+					<Point>
+						<position>459</position>
+						<quantity>616</quantity>
+					</Point>
+					<Point>
+						<position>460</position>
+						<quantity>539</quantity>
+					</Point>
+					<Point>
+						<position>461</position>
+						<quantity>261</quantity>
+					</Point>
+					<Point>
+						<position>462</position>
+						<quantity>472</quantity>
+					</Point>
+					<Point>
+						<position>463</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>464</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>465</position>
+						<quantity>616</quantity>
+					</Point>
+					<Point>
+						<position>466</position>
+						<quantity>537</quantity>
+					</Point>
+					<Point>
+						<position>467</position>
+						<quantity>593</quantity>
+					</Point>
+					<Point>
+						<position>468</position>
+						<quantity>613</quantity>
+					</Point>
+					<Point>
+						<position>469</position>
+						<quantity>521</quantity>
+					</Point>
+					<Point>
+						<position>470</position>
+						<quantity>619</quantity>
+					</Point>
+					<Point>
+						<position>471</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>472</position>
+						<quantity>619</quantity>
+					</Point>
+					<Point>
+						<position>473</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>474</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>475</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>476</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>477</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>478</position>
+						<quantity>617</quantity>
+					</Point>
+					<Point>
+						<position>479</position>
+						<quantity>535</quantity>
+					</Point>
+					<Point>
+						<position>480</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>481</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>482</position>
+						<quantity>619</quantity>
+					</Point>
+					<Point>
+						<position>483</position>
+						<quantity>605</quantity>
+					</Point>
+					<Point>
+						<position>484</position>
+						<quantity>603</quantity>
+					</Point>
+					<Point>
+						<position>485</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>486</position>
+						<quantity>619</quantity>
+					</Point>
+					<Point>
+						<position>487</position>
+						<quantity>599</quantity>
+					</Point>
+					<Point>
+						<position>488</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>489</position>
+						<quantity>618</quantity>
+					</Point>
+					<Point>
+						<position>490</position>
+						<quantity>557</quantity>
+					</Point>
+					<Point>
+						<position>491</position>
+						<quantity>467</quantity>
+					</Point>
+					<Point>
+						<position>492</position>
+						<quantity>320</quantity>
+					</Point>
+					<Point>
+						<position>493</position>
+						<quantity>221</quantity>
+					</Point>
+					<Point>
+						<position>494</position>
+						<quantity>444</quantity>
+					</Point>
+					<Point>
+						<position>495</position>
+						<quantity>489</quantity>
+					</Point>
+					<Point>
+						<position>496</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>497</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>498</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>499</position>
+						<quantity>621</quantity>
+					</Point>
+					<Point>
+						<position>500</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>501</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>502</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>503</position>
+						<quantity>621</quantity>
+					</Point>
+					<Point>
+						<position>504</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>505</position>
+						<quantity>621</quantity>
+					</Point>
+					<Point>
+						<position>506</position>
+						<quantity>621</quantity>
+					</Point>
+					<Point>
+						<position>507</position>
+						<quantity>610</quantity>
+					</Point>
+					<Point>
+						<position>508</position>
+						<quantity>391</quantity>
+					</Point>
+					<Point>
+						<position>509</position>
+						<quantity>531</quantity>
+					</Point>
+					<Point>
+						<position>510</position>
+						<quantity>609</quantity>
+					</Point>
+					<Point>
+						<position>511</position>
+						<quantity>361</quantity>
+					</Point>
+					<Point>
+						<position>512</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>513</position>
+						<quantity>617</quantity>
+					</Point>
+					<Point>
+						<position>514</position>
+						<quantity>540</quantity>
+					</Point>
+					<Point>
+						<position>515</position>
+						<quantity>619</quantity>
+					</Point>
+					<Point>
+						<position>516</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>517</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>518</position>
+						<quantity>617</quantity>
+					</Point>
+					<Point>
+						<position>519</position>
+						<quantity>553</quantity>
+					</Point>
+					<Point>
+						<position>520</position>
+						<quantity>621</quantity>
+					</Point>
+					<Point>
+						<position>521</position>
+						<quantity>621</quantity>
+					</Point>
+					<Point>
+						<position>522</position>
+						<quantity>617</quantity>
+					</Point>
+					<Point>
+						<position>523</position>
+						<quantity>556</quantity>
+					</Point>
+					<Point>
+						<position>524</position>
+						<quantity>619</quantity>
+					</Point>
+					<Point>
+						<position>525</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>526</position>
+						<quantity>619</quantity>
+					</Point>
+					<Point>
+						<position>527</position>
+						<quantity>621</quantity>
+					</Point>
+					<Point>
+						<position>528</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>529</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>530</position>
+						<quantity>621</quantity>
+					</Point>
+					<Point>
+						<position>531</position>
+						<quantity>621</quantity>
+					</Point>
+					<Point>
+						<position>532</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>533</position>
+						<quantity>618</quantity>
+					</Point>
+					<Point>
+						<position>534</position>
+						<quantity>545</quantity>
+					</Point>
+					<Point>
+						<position>535</position>
+						<quantity>241</quantity>
+					</Point>
+					<Point>
+						<position>536</position>
+						<quantity>7</quantity>
+					</Point>
+					<Point>
+						<position>537</position>
+						<quantity>160</quantity>
+					</Point>
+					<Point>
+						<position>538</position>
+						<quantity>66</quantity>
+					</Point>
+					<Point>
+						<position>539</position>
+						<quantity>39</quantity>
+					</Point>
+					<Point>
+						<position>540</position>
+						<quantity>44</quantity>
+					</Point>
+					<Point>
+						<position>541</position>
+						<quantity>154</quantity>
+					</Point>
+					<Point>
+						<position>542</position>
+						<quantity>74</quantity>
+					</Point>
+					<Point>
+						<position>543</position>
+						<quantity>13</quantity>
+					</Point>
+					<Point>
+						<position>544</position>
+						<quantity>325</quantity>
+					</Point>
+					<Point>
+						<position>545</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>546</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>547</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>548</position>
+						<quantity>621</quantity>
+					</Point>
+					<Point>
+						<position>549</position>
+						<quantity>621</quantity>
+					</Point>
+					<Point>
+						<position>550</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>551</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>552</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>553</position>
+						<quantity>619</quantity>
+					</Point>
+					<Point>
+						<position>554</position>
+						<quantity>619</quantity>
+					</Point>
+					<Point>
+						<position>555</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>556</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>557</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>558</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>559</position>
+						<quantity>608</quantity>
+					</Point>
+					<Point>
+						<position>560</position>
+						<quantity>328</quantity>
+					</Point>
+					<Point>
+						<position>561</position>
+						<quantity>150</quantity>
+					</Point>
+					<Point>
+						<position>562</position>
+						<quantity>254</quantity>
+					</Point>
+					<Point>
+						<position>563</position>
+						<quantity>203</quantity>
+					</Point>
+					<Point>
+						<position>564</position>
+						<quantity>310</quantity>
+					</Point>
+					<Point>
+						<position>565</position>
+						<quantity>459</quantity>
+					</Point>
+					<Point>
+						<position>566</position>
+						<quantity>539</quantity>
+					</Point>
+					<Point>
+						<position>567</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>568</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>569</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>570</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>571</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>572</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>573</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>574</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>575</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>576</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>577</position>
+						<quantity>611</quantity>
+					</Point>
+					<Point>
+						<position>578</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>579</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>580</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>581</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>582</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>583</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>584</position>
+						<quantity>621</quantity>
+					</Point>
+					<Point>
+						<position>585</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>586</position>
+						<quantity>621</quantity>
+					</Point>
+					<Point>
+						<position>587</position>
+						<quantity>621</quantity>
+					</Point>
+					<Point>
+						<position>588</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>589</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>590</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>591</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>592</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>593</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>594</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>595</position>
+						<quantity>621</quantity>
+					</Point>
+					<Point>
+						<position>596</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>597</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>598</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>599</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>600</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>601</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>602</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>603</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>604</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>605</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>606</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>607</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>608</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>609</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>610</position>
+						<quantity>619</quantity>
+					</Point>
+					<Point>
+						<position>611</position>
+						<quantity>574</quantity>
+					</Point>
+					<Point>
+						<position>612</position>
+						<quantity>271</quantity>
+					</Point>
+					<Point>
+						<position>613</position>
+						<quantity>75</quantity>
+					</Point>
+					<Point>
+						<position>614</position>
+						<quantity>380</quantity>
+					</Point>
+					<Point>
+						<position>615</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>616</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>617</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>618</position>
+						<quantity>604</quantity>
+					</Point>
+					<Point>
+						<position>619</position>
+						<quantity>351</quantity>
+					</Point>
+					<Point>
+						<position>620</position>
+						<quantity>534</quantity>
+					</Point>
+					<Point>
+						<position>621</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>622</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>623</position>
+						<quantity>617</quantity>
+					</Point>
+					<Point>
+						<position>624</position>
+						<quantity>535</quantity>
+					</Point>
+					<Point>
+						<position>625</position>
+						<quantity>515</quantity>
+					</Point>
+					<Point>
+						<position>626</position>
+						<quantity>597</quantity>
+					</Point>
+					<Point>
+						<position>627</position>
+						<quantity>482</quantity>
+					</Point>
+					<Point>
+						<position>628</position>
+						<quantity>435</quantity>
+					</Point>
+					<Point>
+						<position>629</position>
+						<quantity>437</quantity>
+					</Point>
+					<Point>
+						<position>630</position>
+						<quantity>307</quantity>
+					</Point>
+					<Point>
+						<position>631</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>632</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>633</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>634</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>635</position>
+						<quantity>13</quantity>
+					</Point>
+					<Point>
+						<position>636</position>
+						<quantity>331</quantity>
+					</Point>
+					<Point>
+						<position>637</position>
+						<quantity>619</quantity>
+					</Point>
+					<Point>
+						<position>638</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>639</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>640</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>641</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>642</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>643</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>644</position>
+						<quantity>621</quantity>
+					</Point>
+					<Point>
+						<position>645</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>646</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>647</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>648</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>649</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>650</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>651</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>652</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>653</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>654</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>655</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>656</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>657</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>658</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>659</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>660</position>
+						<quantity>614</quantity>
+					</Point>
+					<Point>
+						<position>661</position>
+						<quantity>479</quantity>
+					</Point>
+					<Point>
+						<position>662</position>
+						<quantity>580</quantity>
+					</Point>
+					<Point>
+						<position>663</position>
+						<quantity>601</quantity>
+					</Point>
+					<Point>
+						<position>664</position>
+						<quantity>604</quantity>
+					</Point>
+					<Point>
+						<position>665</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>666</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>667</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>668</position>
+						<quantity>621</quantity>
+					</Point>
+					<Point>
+						<position>669</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>670</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>671</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>672</position>
+						<quantity>621</quantity>
+					</Point>
+					<Point>
+						<position>673</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>674</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>675</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>676</position>
+						<quantity>621</quantity>
+					</Point>
+					<Point>
+						<position>677</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>678</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>679</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>680</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>681</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>682</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>683</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>684</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>685</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>686</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>687</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>688</position>
+						<quantity>621</quantity>
+					</Point>
+					<Point>
+						<position>689</position>
+						<quantity>621</quantity>
+					</Point>
+					<Point>
+						<position>690</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>691</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>692</position>
+						<quantity>621</quantity>
+					</Point>
+					<Point>
+						<position>693</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>694</position>
+						<quantity>609</quantity>
+					</Point>
+					<Point>
+						<position>695</position>
+						<quantity>338</quantity>
+					</Point>
+					<Point>
+						<position>696</position>
+						<quantity>340</quantity>
+					</Point>
+					<Point>
+						<position>697</position>
+						<quantity>44</quantity>
+					</Point>
+					<Point>
+						<position>698</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>699</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>700</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>701</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>702</position>
+						<quantity>7</quantity>
+					</Point>
+					<Point>
+						<position>703</position>
+						<quantity>314</quantity>
+					</Point>
+					<Point>
+						<position>704</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>705</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>706</position>
+						<quantity>607</quantity>
+					</Point>
+					<Point>
+						<position>707</position>
+						<quantity>300</quantity>
+					</Point>
+					<Point>
+						<position>708</position>
+						<quantity>0</quantity>
+					</Point>
+					<Point>
+						<position>709</position>
+						<quantity>13</quantity>
+					</Point>
+					<Point>
+						<position>710</position>
+						<quantity>322</quantity>
+					</Point>
+					<Point>
+						<position>711</position>
+						<quantity>619</quantity>
+					</Point>
+					<Point>
+						<position>712</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>713</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>714</position>
+						<quantity>621</quantity>
+					</Point>
+					<Point>
+						<position>715</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>716</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>717</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>718</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>719</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>720</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>721</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>722</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>723</position>
+						<quantity>617</quantity>
+					</Point>
+					<Point>
+						<position>724</position>
+						<quantity>535</quantity>
+					</Point>
+					<Point>
+						<position>725</position>
+						<quantity>424</quantity>
+					</Point>
+					<Point>
+						<position>726</position>
+						<quantity>621</quantity>
+					</Point>
+					<Point>
+						<position>727</position>
+						<quantity>621</quantity>
+					</Point>
+					<Point>
+						<position>728</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>729</position>
+						<quantity>621</quantity>
+					</Point>
+					<Point>
+						<position>730</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>731</position>
+						<quantity>618</quantity>
+					</Point>
+					<Point>
+						<position>732</position>
+						<quantity>579</quantity>
+					</Point>
+					<Point>
+						<position>733</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>734</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>735</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>736</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>737</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>738</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>739</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>740</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>741</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>742</position>
+						<quantity>621</quantity>
+					</Point>
+					<Point>
+						<position>743</position>
+						<quantity>620</quantity>
+					</Point>
+					<Point>
+						<position>744</position>
+						<quantity>594</quantity>
 					</Point>
 			</Period>
 	</TimeSeries>
