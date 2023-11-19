@@ -15,7 +15,8 @@ RESOLUTION_TABLE = {
     "P1Y": "1year",
 }
 
-PsrType_Table = {
+PsrType = pd.read_csv("psrtype.csv")
+
 
 class Client:
     def __init__(self):
@@ -169,6 +170,7 @@ class Client:
         for production_type in dfs:
             dfs[production_type] = pd.to_numeric(dfs[production_type][production_type])
         df = pd.concat(dfs.values(), axis=1, keys=dfs.keys())
+        df.columns = df.columns.map(PsrType.set_index("Code")["Meaning"].to_dict())
         df = df.reindex(sorted(df.columns), axis=1)
         return df
 
