@@ -113,7 +113,7 @@ class Client:
             for data_point in data_points:
                 df = pd.concat(
                     [
-                        df,
+                        df if not df.empty else None,
                         pd.DataFrame(
                             {
                                 col_name: data_point[col_name],
@@ -192,7 +192,7 @@ class Client:
                 continue
             df = pd.concat(
                 [
-                    df,
+                    df if not df.empty else None,
                     self.process_publication_market_document(
                         resp_dict["Publication_MarketDocument"], "quantity"
                     ),
@@ -218,7 +218,7 @@ class Client:
                 continue
             df = pd.concat(
                 [
-                    df,
+                    df if not df.empty else None,
                     self.process_publication_market_document(
                         resp_dict["Publication_MarketDocument"], "price.amount"
                     ),

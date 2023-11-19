@@ -51,7 +51,7 @@ class Interconnector:
 
 
 # Settings
-global_start = "202310010000"
+global_start = "202304010000"
 global_end = "202311010000"
 
 # Read interconnectors from file
