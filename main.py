@@ -39,6 +39,7 @@ DATA_DIR = "data"
 if not os.path.exists(DATA_DIR):
     os.makedirs(DATA_DIR)
 
+
 @dataclass
 class Interconnector:
     country: str
@@ -50,8 +51,8 @@ class Interconnector:
 
 
 # Read interconnectors from file
-interconnectors = pd.read_csv("config_physical_flow_cty.csv")
-print(interconnectors)
+# interconnectors = pd.read_csv("config_physical_flow_cty.csv")
+# print(interconnectors)
 
 # Get physical flows for each interconnector
 # for idx, interconnector in interconnectors.iterrows():
@@ -66,12 +67,12 @@ print(interconnectors)
 #         f"{DATA_DIR}/physical_flow__{interconnector.country}_{settings['in_domain']}_{settings['out_domain']}_{settings['start']}_{settings['end']}.csv"
 #     )
 
-df = client.qDayAheadPrices(
-    domain="10YNL----------L",
-    start="202301010000",
-    end="202310010000",
-)
-df.to_csv("data_day_ahead_prices.csv")
+# df = client.qDayAheadPrices(
+#     domain="10YNL----------L",
+#     start="202301010000",
+#     end="202310010000",
+# )
+# df.to_csv("data_day_ahead_prices.csv")
 # # Plot
 # df["day_moving_average"] = df["price"].rolling(window=24).mean()
 # df.plot()
@@ -79,3 +80,12 @@ df.to_csv("data_day_ahead_prices.csv")
 # plt.xlabel("Time")
 # plt.title("Day Ahead Prices of Netherlands (NL)")
 # plt.show()
+
+
+df = client.qActualGenerationPerProductionType(
+    domain="10YNL----------L",
+    start="202310010000",
+    end="202311010000",
+)
+print(df)
+df.to_csv(f"{DATA_DIR}/actual_generation_per_production_type.csv")
