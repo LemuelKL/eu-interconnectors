@@ -1,3 +1,4 @@
+import os
 from dataclasses import dataclass
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -33,6 +34,10 @@ client = Client()
 # )
 # df.to_csv("data_physical_flows.csv")
 
+DATA_DIR = "data"
+# Create data directory if not exists
+if not os.path.exists(DATA_DIR):
+    os.makedirs(DATA_DIR)
 
 @dataclass
 class Interconnector:
@@ -45,28 +50,28 @@ class Interconnector:
 
 
 # Read interconnectors from file
-interconnectors = pd.read_csv("interconnector_config.csv")
+interconnectors = pd.read_csv("config_physical_flow_cty.csv")
 print(interconnectors)
 
 # Get physical flows for each interconnector
-for idx, interconnector in interconnectors.iterrows():
-    settings = {
-        "in_domain": interconnector.in_domain,
-        "out_domain": interconnector.out_domain,
-        "start": "202301010000",
-        "end": "202302010000",
-    }
-    df = client.qPhysicalFlows(**settings)
-    df.to_csv(
-        f"data_physical_flows__{interconnector.country}_{settings['in_domain']}_{settings['out_domain']}_{settings['start']}_{settings['end']}.csv"
-    )
+# for idx, interconnector in interconnectors.iterrows():
+#     settings = {
+#         "in_domain": interconnector.in_domain,
+#         "out_domain": interconnector.out_domain,
+#         "start": "202111010000",
+#         "end": "202311010000",
+#     }
+#     df = client.qPhysicalFlows(**settings)
+#     df.to_csv(
+#         f"{DATA_DIR}/physical_flow__{interconnector.country}_{settings['in_domain']}_{settings['out_domain']}_{settings['start']}_{settings['end']}.csv"
+#     )
 
-# df = client.qDayAheadPrices(
-#     domain="10YNL----------L",
-#     start="202301010000",
-#     end="202310010000",
-# )
-# df.to_csv("data_day_ahead_prices.csv")
+df = client.qDayAheadPrices(
+    domain="10YNL----------L",
+    start="202301010000",
+    end="202310010000",
+)
+df.to_csv("data_day_ahead_prices.csv")
 # # Plot
 # df["day_moving_average"] = df["price"].rolling(window=24).mean()
 # df.plot()
