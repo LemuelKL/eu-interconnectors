@@ -6,7 +6,7 @@ import xmltodict
 import pandas as pd
 
 logger = logging.getLogger(__name__)
-logger.setLevel(logging.INFO)
+logger.setLevel(logging.DEBUG)
 
 
 RESOLUTION_TABLE = {
@@ -72,7 +72,7 @@ class Client:
                 )
                 start = end
 
-            logger.info(f"{url}")
+            logger.debug(url)
             response = requests.get(url)
             if response.status_code != 200:
                 logger.error(response.status_code)
@@ -107,14 +107,24 @@ class Client:
             time_interval_end = period["timeInterval"]["end"]
             resolution = period["resolution"]
             assert resolution in RESOLUTION_TABLE
-            logger.info(f"{time_interval_start} {time_interval_end} {resolution}")
+            logger.debug(f"{time_interval_start} {time_interval_end} {resolution}")
             data_points = period["Point"]
+            if not isinstance(data_points, list):
+                data_points = [data_points]
             time_counter = pd.date_range(
                 start=time_interval_start,
                 end=time_interval_end,
                 freq=RESOLUTION_TABLE[resolution],
             )
             for data_point in data_points:
+                if col_name not in data_point:
+                    logger.error(f"Missing {col_name} in data point")
+                    # Dump document to file
+                    file_name = f"bad.xml"
+                    with open(file_name, "w") as f:
+                        f.write(str(document))
+                    exit(1)
+
                 df = pd.concat(
                     [
                         df if not df.empty else None,
@@ -147,8 +157,10 @@ class Client:
             time_interval_end = period["timeInterval"]["end"]
             resolution = period["resolution"]
             assert resolution in RESOLUTION_TABLE
-            logger.info(f"{time_interval_start} {time_interval_end} {resolution}")
+            logger.debug(f"{time_interval_start} {time_interval_end} {resolution}")
             data_points = period["Point"]
+            if not isinstance(data_points, list):
+                data_points = [data_points]
             time_counter = pd.date_range(
                 start=time_interval_start,
                 end=time_interval_end,

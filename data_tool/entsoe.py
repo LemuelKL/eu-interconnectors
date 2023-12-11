@@ -7,6 +7,9 @@ from client import Client
 
 logging.basicConfig(level=logging.INFO)
 
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
+
 
 BASE_DATA_DIR = "./../data"
 FLOW_DATA_DIR = f"{BASE_DATA_DIR}/flow"
@@ -35,17 +38,30 @@ global_end = "202311010000"
 interconnectors = pd.read_csv("config_physical_flow_cty.csv")
 logging.info(f"Found {len(interconnectors)} interconnectors in config.")
 
+cty_df = pd.read_csv("cty.csv")
+
 client = Client()
 
 # Get physical flows for each interconnector
 for idx, interconnector in interconnectors.iterrows():
+    from_cty = interconnector.from_cty
+    to_cty = interconnector.to_cty
+
+    file_name = f"{FLOW_DATA_DIR}/{from_cty}_{to_cty}_{global_start}-{global_end}.csv"
+    # Check if file already exists
+    if os.path.exists(file_name):
+        logging.info(f"Skipping {from_cty} -> {to_cty} as file already exists.")
+        continue
+
+    out_domain = cty_df[cty_df["cty"] == from_cty]["domain"].iloc[0]
+    in_domain = cty_df[cty_df["cty"] == to_cty]["domain"].iloc[0]
+
     settings = {
-        "in_domain": interconnector.in_domain,
-        "out_domain": interconnector.out_domain,
+        "in_domain": in_domain,
+        "out_domain": out_domain,
         "start": global_start,
         "end": global_end,
     }
     df = client.qPhysicalFlows(**settings)
-    df.to_csv(
-        f"{FLOW_DATA_DIR}/{interconnector.in_country}_{interconnector.out_country}_{settings['start']}-{settings['end']}.csv"
-    )
+    df.to_csv(file_name)
+    logging.info(f"Saved {from_cty} -> {to_cty} to {file_name}")

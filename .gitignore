@@ -2,3 +2,4 @@
 .ve
 __pycache__
 .Rhistory
+data/*
