@@ -1,8 +1,12 @@
+import logging
 from dotenv import load_dotenv
 import os
 import requests
 import xmltodict
 import pandas as pd
+
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
 
 
 RESOLUTION_TABLE = {
@@ -23,7 +27,7 @@ class Client:
         load_dotenv()
         securityToken = os.getenv("ENTSOE_TOKEN")
         if securityToken is None:
-            print(
+            logger.error(
                 "No security token found. Please set the environment variable `ENTSOE_TOKEN`"
             )
             exit(1)
@@ -68,11 +72,11 @@ class Client:
                 )
                 start = end
 
-            print(f"[API] {url}")
+            logger.info(f"{url}")
             response = requests.get(url)
             if response.status_code != 200:
-                print("Error: " + str(response.status_code))
-                print(response.text)
+                logger.error(response.status_code)
+                logger.error(response.text)
                 exit(1)
             respText = response.text
             respDict = xmltodict.parse(respText)
@@ -103,7 +107,7 @@ class Client:
             time_interval_end = period["timeInterval"]["end"]
             resolution = period["resolution"]
             assert resolution in RESOLUTION_TABLE
-            print(time_interval_start, time_interval_end, resolution)
+            logger.info(f"{time_interval_start} {time_interval_end} {resolution}")
             data_points = period["Point"]
             time_counter = pd.date_range(
                 start=time_interval_start,
@@ -143,7 +147,7 @@ class Client:
             time_interval_end = period["timeInterval"]["end"]
             resolution = period["resolution"]
             assert resolution in RESOLUTION_TABLE
-            print(time_interval_start, time_interval_end, resolution)
+            logger.info(f"{time_interval_start} {time_interval_end} {resolution}")
             data_points = period["Point"]
             time_counter = pd.date_range(
                 start=time_interval_start,

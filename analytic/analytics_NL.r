@@ -40,8 +40,14 @@ train_df <- df[train, ]
 test_df <- df[-train, ]
 
 # SVM model to predict quantity using all other variables except date_time
+library(e1071)
 model <- svm(quantity ~ . - date_time, data = train_df, kernel = "radial", cost = 1000, gamma = 10, epsilon = 0.1)
 summary(model)
+
+# Build many SVM models with different parameters and pick the best one
+library(caret)
+tune.out <- tune.svm(quantity ~ . - date_time, data = train_df, kernel = "radial", cost = 10^(-1:2), gamma = c(0.5, 1, 2, 3, 4, 5))
+summary(tune.out)
 
 # Predict quantity using test set
 pred <- predict(model, test_df)
@@ -57,3 +63,4 @@ ggplot(data = test_df, aes(x = date_time, y = quantity)) + geom_line() + geom_li
 
 # Plot flow vs total
 ggplot(data = df, aes(x = total, y = quantity)) + geom_point()
+
