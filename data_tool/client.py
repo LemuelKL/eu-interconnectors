@@ -117,14 +117,6 @@ class Client:
                 freq=RESOLUTION_TABLE[resolution],
             )
             for data_point in data_points:
-                if col_name not in data_point:
-                    logger.error(f"Missing {col_name} in data point")
-                    # Dump document to file
-                    file_name = f"bad.xml"
-                    with open(file_name, "w") as f:
-                        f.write(str(document))
-                    exit(1)
-
                 df = pd.concat(
                     [
                         df if not df.empty else None,
