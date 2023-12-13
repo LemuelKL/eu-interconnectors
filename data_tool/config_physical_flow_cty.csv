@@ -1,89 +1,89 @@
 from_cty,to_cty
-BE,DE
-BE,FR
-BE,LU
-BE,NL
-BE,UK
-DE,BE
-FR,BE
-LU,BE
-NL,BE
-UK,BE
-DK,DE
-DK,NL
-DK,NO
-DK,SE
-DK,UK
-DE,DK
-NL,DK
-NO,DK
-SE,DK
-UK,DK
-DE,AT
-DE,BE
-DE,CH
-DE,CZ
-DE,DK
-DE,FR
-DE,LU
-DE,NL
-DE,NO
-DE,PL
-DE,SE
-AT,DE
-BE,DE
-CH,DE
-CZ,DE
-DK,DE
-FR,DE
-LU,DE
-NL,DE
-NO,DE
-PL,DE
-SE,DE
-FR,BE
-FR,CH
-FR,DE
-FR,ES
-FR,IT
-FR,UK
-BE,FR
-CH,FR
-DE,FR
-ES,FR
-IT,FR
-UK,FR
-NL,BE
-NL,DE
-NL,DK
-NL,NO
-NL,UK
-BE,NL
-DE,NL
-DK,NL
-NO,NL
-UK,NL
-NO,DE
-NO,DK
-NO,FI
-NO,NL
-NO,SE
-NO,UK
-DE,NO
-DK,NO
-FI,NO
-NL,NO
-SE,NO
-UK,NO
-UK,BE
-UK,DK
-UK,FR
-UK,IE
-UK,NL
-UK,NO
-BE,UK
-DK,UK
-FR,UK
-IE,UK
-NL,UK
-NO,UK
+Belgium (BE),Germany (DE)
+Belgium (BE),France (FR)
+Belgium (BE),Luxembourg (LU)
+Belgium (BE),Netherlands (NL)
+Belgium (BE),United Kingdom (UK)
+Germany (DE),Belgium (BE)
+France (FR),Belgium (BE)
+Luxembourg (LU),Belgium (BE)
+Netherlands (NL),Belgium (BE)
+United Kingdom (UK),Belgium (BE)
+Denmark (DK),Germany (DE)
+Denmark (DK),Netherlands (NL)
+Denmark (DK),Norway (NO)
+Denmark (DK),Sweden (SE)
+Denmark (DK),United Kingdom (UK)
+Germany (DE),Denmark (DK)
+Netherlands (NL),Denmark (DK)
+Norway (NO),Denmark (DK)
+Sweden (SE),Denmark (DK)
+United Kingdom (UK),Denmark (DK)
+Germany (DE),Austria (AT)
+Germany (DE),Belgium (BE)
+Germany (DE),Switzerland (CH)
+Germany (DE),Czech Republic (CZ)
+Germany (DE),Denmark (DK)
+Germany (DE),France (FR)
+Germany (DE),Luxembourg (LU)
+Germany (DE),Netherlands (NL)
+Germany (DE),Norway (NO)
+Germany (DE),Poland (PL)
+Germany (DE),Sweden (SE)
+Austria (AT),Germany (DE)
+Belgium (BE),Germany (DE)
+Switzerland (CH),Germany (DE)
+Czech Republic (CZ),Germany (DE)
+Denmark (DK),Germany (DE)
+France (FR),Germany (DE)
+Luxembourg (LU),Germany (DE)
+Netherlands (NL),Germany (DE)
+Norway (NO),Germany (DE)
+Poland (PL),Germany (DE)
+Sweden (SE),Germany (DE)
+France (FR),Belgium (BE)
+France (FR),Switzerland (CH)
+France (FR),Germany (DE)
+France (FR),Spain (ES)
+France (FR),Italy (IT)
+France (FR),United Kingdom (UK)
+Belgium (BE),France (FR)
+Switzerland (CH),France (FR)
+Germany (DE),France (FR)
+Spain (ES),France (FR)
+Italy (IT),France (FR)
+United Kingdom (UK),France (FR)
+Netherlands (NL),Belgium (BE)
+Netherlands (NL),Germany (DE)
+Netherlands (NL),Denmark (DK)
+Netherlands (NL),Norway (NO)
+Netherlands (NL),United Kingdom (UK)
+Belgium (BE),Netherlands (NL)
+Germany (DE),Netherlands (NL)
+Denmark (DK),Netherlands (NL)
+Norway (NO),Netherlands (NL)
+United Kingdom (UK),Netherlands (NL)
+Norway (NO),Germany (DE)
+Norway (NO),Denmark (DK)
+Norway (NO),Finland (FI)
+Norway (NO),Netherlands (NL)
+Norway (NO),Sweden (SE)
+Norway (NO),United Kingdom (UK)
+Germany (DE),Norway (NO)
+Denmark (DK),Norway (NO)
+Finland (FI),Norway (NO)
+Netherlands (NL),Norway (NO)
+Sweden (SE),Norway (NO)
+United Kingdom (UK),Norway (NO)
+United Kingdom (UK),Belgium (BE)
+United Kingdom (UK),Denmark (DK)
+United Kingdom (UK),France (FR)
+United Kingdom (UK),Ireland (IE)
+United Kingdom (UK),Netherlands (NL)
+United Kingdom (UK),Norway (NO)
+Belgium (BE),United Kingdom (UK)
+Denmark (DK),United Kingdom (UK)
+France (FR),United Kingdom (UK)
+Ireland (IE),United Kingdom (UK)
+Netherlands (NL),United Kingdom (UK)
+Norway (NO),United Kingdom (UK)

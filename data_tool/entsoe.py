@@ -30,38 +30,72 @@ class Interconnector:
         return f"{self.country} {self.in_domain} {self.out_domain}"
 
 
+client = Client()
 # Settings
 global_start = "202304010000"
 global_end = "202311010000"
+area_df = pd.read_csv("area.csv")
 
-# Read interconnectors from file
-interconnectors = pd.read_csv("config_physical_flow_cty.csv")
-logging.info(f"Found {len(interconnectors)} interconnectors in config.")
 
-cty_df = pd.read_csv("cty.csv")
+def lookup_domain_code(key):
+    return area_df[area_df["Key"] == key]["Code"].iloc[0]
 
-client = Client()
 
-# Get physical flows for each interconnector
-for idx, interconnector in interconnectors.iterrows():
-    from_cty = interconnector.from_cty
-    to_cty = interconnector.to_cty
+def download_flow_data():
+    config = pd.read_csv("config_physical_flow_cty.csv")
+    logging.info(f"Found {len(config)} interconnectors in config.")
 
-    file_name = f"{FLOW_DATA_DIR}/{from_cty}_{to_cty}_{global_start}-{global_end}.csv"
-    # Check if file already exists
-    if os.path.exists(file_name):
-        logging.info(f"Skipping {from_cty} -> {to_cty} as file already exists.")
-        continue
+    # Get physical flows between each pair of countries
+    for idx, interconnector in config.iterrows():
+        from_cty = interconnector.from_cty
+        from_cty_abbrv = from_cty[from_cty.find("(") + 1 : from_cty.find(")")]
+        to_cty = interconnector.to_cty
+        to_cty_abbrv = to_cty[to_cty.find("(") + 1 : to_cty.find(")")]
 
-    out_domain = cty_df[cty_df["cty"] == from_cty]["domain"].iloc[0]
-    in_domain = cty_df[cty_df["cty"] == to_cty]["domain"].iloc[0]
+        file_name = f"{FLOW_DATA_DIR}/{from_cty_abbrv}_{to_cty_abbrv}_{global_start}-{global_end}.csv"
+        # Check if file already exists
+        if os.path.exists(file_name):
+            logging.info(f"Skipping {from_cty} -> {to_cty} as file already exists.")
+            continue
 
-    settings = {
-        "in_domain": in_domain,
-        "out_domain": out_domain,
-        "start": global_start,
-        "end": global_end,
-    }
-    df = client.qPhysicalFlows(**settings)
-    df.to_csv(file_name)
-    logging.info(f"Saved {from_cty} -> {to_cty} to {file_name}")
+        out_domain = lookup_domain_code(from_cty)
+        in_domain = lookup_domain_code(to_cty)
+
+        settings = {
+            "in_domain": in_domain,
+            "out_domain": out_domain,
+            "start": global_start,
+            "end": global_end,
+        }
+        df = client.qPhysicalFlows(**settings)
+        df.to_csv(file_name)
+        logging.info(f"Saved {from_cty} -> {to_cty} to {file_name}")
+
+
+def download_price_data():
+    # Read cty from file
+    bzns = pd.read_csv("config_day_ahead_price.csv")
+    logging.info(f"Found {len(bzns)} bidding zones in config.")
+
+    for idx, bzn in bzns.iterrows():
+        bzn = bzn.bzn
+        domain = lookup_domain_code(bzn)
+        file_name = f"{DAP_DATA_DIR}/{bzn[4:]}_{global_start}-{global_end}.csv"
+        # Check if file already exists
+        if os.path.exists(file_name):
+            logging.info(f"Skipping {bzn} as file already exists.")
+            continue
+
+        settings = {
+            "domain": domain,
+            "start": global_start,
+            "end": global_end,
+        }
+        df = client.qDayAheadPrices(**settings)
+        df.to_csv(file_name)
+        logging.info(f"Saved {bzn} to {file_name}")
+
+
+if __name__ == "__main__":
+    download_flow_data()
+    # download_price_data()
