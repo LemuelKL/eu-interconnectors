@@ -3,3 +3,15 @@
 __pycache__
 .Rhistory
 data/*
+201306-citibike-tripdata.csv
+Cora/raw/ind.cora.y
+Cora/raw/ind.cora.x
+Cora/raw/ind.cora.ty
+Cora/raw/ind.cora.tx
+Cora/raw/ind.cora.test.index
+Cora/raw/ind.cora.graph
+Cora/raw/ind.cora.ally
+Cora/raw/ind.cora.allx
+Cora/processed/pre_transform.pt
+Cora/processed/pre_filter.pt
+Cora/processed/data.pt
